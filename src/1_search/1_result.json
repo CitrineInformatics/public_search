@@ -1,0 +1,31 @@
+{
+  "analysis": {
+    "property": {
+      "type": "categorical",
+      "buckets": [
+        {
+          "count": 4654,
+          "value": "σ(converted from log)"
+        },
+        {
+          "count": 4541,
+          "value": "Logσ"
+        },
+        {
+          "count": 2741,
+          "value": "Crystal structure"
+        },
+        {
+          "count": 2371,
+          "value": "Conductivity"
+        },
+        {
+          "count": 2300,
+          "value": "LogσT"
+        }
+      ]
+    }
+  },
+  "took": 157,
+  "totalNumHits": 3039
+}
