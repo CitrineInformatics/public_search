@@ -44,7 +44,8 @@
                   "analysis": [
                     {
                       "type": "categorical",
-                      "path": "property"
+                      "path": "property",
+                      "size": 3
                     }
                   ]
                 }
