@@ -1,4 +1,4 @@
-import { datasetSearch } from '../client';
+import { datasetSearch } from 'client';
 
 // make against /datasets/search instead of /pifs/search
 function buildQuery(chemicalFormula) {

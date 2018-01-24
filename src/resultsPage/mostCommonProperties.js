@@ -33,7 +33,7 @@ function mostCommonProperties(properties) {
   return pifSearch(query);
 }
 
-async function processResults(properties) {
+async function main(properties) {
   try {
     const res = await mostCommonProperties(properties);
     const queryResponse = JSON.parse(res.body);
@@ -45,4 +45,4 @@ async function processResults(properties) {
   }
 }
 
-export default processResults;
+export default main;
