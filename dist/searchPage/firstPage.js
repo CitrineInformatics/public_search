@@ -1,102 +1,55 @@
 'use strict';
 
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _regenerator = require('babel-runtime/regenerator');
-
-var _regenerator2 = _interopRequireDefault(_regenerator);
-
-var _asyncToGenerator2 = require('babel-runtime/helpers/asyncToGenerator');
-
-var _asyncToGenerator3 = _interopRequireDefault(_asyncToGenerator2);
-
-var test = function () {
-  var _ref = (0, _asyncToGenerator3.default)( /*#__PURE__*/_regenerator2.default.mark(function _callee() {
-    var res;
-    return _regenerator2.default.wrap(function _callee$(_context) {
+var firstPageResults = function () {
+  var _ref = _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee() {
+    var properties, response;
+    return regeneratorRuntime.wrap(function _callee$(_context) {
       while (1) {
         switch (_context.prev = _context.next) {
           case 0:
-            _context.prev = 0;
-            _context.next = 3;
-            return firstPageResults([{
-              name: 'Band Gap',
-              min: 2,
-              max: 7,
-              units: 'eV'
-            }, {
-              name: 'Substrate',
-              value: 'Aluminum',
-              fromAutoComplete: true
-            }]);
+            _context.next = 2;
+            return (0, _mostCommonProperties2.default)(userInput);
 
-          case 3:
-            res = _context.sent;
+          case 2:
+            properties = _context.sent;
+            _context.next = 5;
+            return (0, _metricsQuery2.default)(userInput, properties);
 
-            console.log("VALID RESPONSE");
-            console.log(res);
-            fs.writeFileSync("/tmp/a", res.body);
+          case 5:
+            response = _context.sent;
 
-            _context.next = 13;
-            break;
+            console.log(response);
 
-          case 9:
-            _context.prev = 9;
-            _context.t0 = _context['catch'](0);
-
-            console.log("ERROR FIRED");
-            console.log(_context.t0);
-
-          case 13:
+          case 7:
           case 'end':
             return _context.stop();
         }
       }
-    }, _callee, this, [[0, 9]]);
+    }, _callee, this);
   }));
 
-  return function test() {
+  return function firstPageResults() {
     return _ref.apply(this, arguments);
   };
 }();
 
-var _client = require('../client');
+var _mostCommonProperties = require('./mostCommonProperties');
 
-var _factory = require('./property/factory');
+var _mostCommonProperties2 = _interopRequireDefault(_mostCommonProperties);
 
-var _factory2 = _interopRequireDefault(_factory);
+var _metricsQuery = require('./metricsQuery');
+
+var _metricsQuery2 = _interopRequireDefault(_metricsQuery);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var fs = require("fs");
+function _asyncToGenerator(fn) { return function () { var gen = fn.apply(this, arguments); return new Promise(function (resolve, reject) { function step(key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { return Promise.resolve(value).then(function (value) { step("next", value); }, function (err) { step("throw", err); }); } } return step("next"); }); }; }
 
-function firstPageResults(properties) {
-  var query = {
-    query: [{}]
-  };
+var userInput = [{
+  name: 'Band Gap',
+  min: 2,
+  max: 7,
+  units: 'eV'
+}];
 
-  query.query[0].system = properties.map(function (property) {
-    return (0, _factory2.default)(property).toJSON();
-  });
-
-  // Add Aggregations Query
-  query.query[0].system.push({
-    properties: [{
-      logic: "MUST",
-      name: [{
-        analysis: [{
-          type: 'categorical',
-          path: 'property',
-          size: 5
-        }]
-      }]
-    }]
-  });
-  fs.writeFileSync("/tmp/query", JSON.stringify(query));
-  return (0, _client.pifSearch)(query);
-}
-
-test();
-exports.default = firstPageResults;
+firstPageResults();

@@ -1,11 +1,11 @@
 import { pifSearch } from '../client';
 import propertyFromLiterals from './property/factory';
+import Promise from 'promise';
 
-var fs = require("fs");
-
-function firstPageResults(properties) {
+function mostCommonProperties(properties) {
   const query = {
     query: [{}],
+    size: 0,
   };
 
   query.query[0].system = properties.map(property => (
@@ -13,9 +13,9 @@ function firstPageResults(properties) {
 
   // Add Aggregations Query
   query.query[0].system.push({
+    logic: 'MUST',
     properties: [
       {
-        logic: "MUST",
         name: [
           {
             analysis: [
@@ -30,33 +30,19 @@ function firstPageResults(properties) {
       },
     ],
   });
-  fs.writeFileSync("/tmp/query", JSON.stringify(query))
   return pifSearch(query);
 }
 
-async function test () {
+async function processResults(properties) {
   try {
-    let res = await firstPageResults([{
-        name: 'Band Gap',
-        min: 2,
-        max: 7,
-        units: 'eV',
-      }, {
-        name: 'Substrate',
-        value: 'Aluminum',
-        fromAutoComplete: true,
-      },
-    ])
-    console.log("VALID RESPONSE");
-    console.log(res);
-    fs.writeFileSync("/tmp/a", res.body)
-
+    const res = await mostCommonProperties(properties);
+    const queryResponse = JSON.parse(res.body);
+    const values = queryResponse.results.analysis.property.buckets.map(bucket => bucket.value);
+    return values;
   } catch (e) {
-    console.log("ERROR FIRED")
-    console.log(e)
+    console.log(e);
+    return [];
   }
-
 }
 
-test();
-export default firstPageResults;
+export default processResults;

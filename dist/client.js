@@ -3,7 +3,7 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.pifSearch = undefined;
+exports.datasetSearch = exports.imagePresignedUrls = exports.pifSearch = undefined;
 
 var _promise = require('promise');
 
@@ -24,13 +24,12 @@ var headers = {
 var site = 'https://citrination.com';
 // const datasetSearch = `${site}/search/dataset`;
 
-
 function pifSearch(query) {
   return new _promise2.default(function (resolve, reject) {
     _request2.default.post({
       headers: headers,
       url: site + '/api/search/pif_search',
-      form: query
+      body: JSON.stringify(query)
     }, function (error, response, body) {
       if (response.statusCode === 200) {
         resolve({ body: body });
@@ -41,4 +40,44 @@ function pifSearch(query) {
   });
 }
 
+function datasetSearch(query) {
+  return new _promise2.default(function (resolve, reject) {
+    _request2.default.post({
+      headers: headers,
+      url: site + '/api/search/dataset',
+      body: JSON.stringify(query)
+    }, function (error, response, body) {
+      if (response.statusCode === 200) {
+        resolve({ body: body });
+      } else {
+        reject(new Error('Oops'));
+      }
+    });
+  });
+}
+
+/**
+ * Takes an array of imagePath objects and returns their presignedurls
+ * @param  {string} imagePath.set       Dataset ID
+ * @param  {string} imagePath.version   Dataset Version ID
+ * @param  {string} imagePath.path      Path From Query
+ * @return {Promise}            Promise containing presignedUrl values
+ */
+function imagePresignedUrls(imagePaths) {
+  return _promise2.default.all(imagePaths.map(function (imagePath) {
+    var url = site + '/api/datasets/' + imagePath.set + '/version/' + imagePath.version + '/url/' + imagePath.path;
+    return new _promise2.default(function (resolve, reject) {
+      _request2.default.get({ headers: headers, url: url }, function (error, response, body) {
+        if (response.statusCode === 200) {
+          resolve({ body: body });
+        } else {
+          reject(new Error('Oops'));
+        }
+      });
+    });
+  }));
+}
+
 exports.pifSearch = pifSearch;
+exports.imagePresignedUrls = imagePresignedUrls;
+exports.datasetSearch = datasetSearch;
