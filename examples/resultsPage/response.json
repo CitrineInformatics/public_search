@@ -1,0 +1,188 @@
+{
+  "data": [
+    {
+      "Material": "SiO2",
+      "Density": "0.571900800065793 - 4.415007426588971 g/cm3",
+      "Band Gap": "0 - 9 eV",
+      "Enthalpy of Formation": "-3.2846466908333327 - -0.840802075277778 eV/atom",
+      "Space Group": "Cmcm unitless",
+      "Total Magnetization": "-0.000020080555555555553 - 0.08323489375 μB/atom"
+    },
+    {
+      "Mam terial": "Mg O",
+      "Density": "3.048 - 5.126 g/cm3"
+    },
+    {
+      "Material": "Al2 Mg O4",
+      "Density": "3.417 - 3.983 g/cm3"
+    },
+    {
+      "Material": "Mg O3 Si",
+      "Density": "2.974 - 9.823 g/cm3"
+    },
+    {
+      "Material": "O2 Si",
+      "Density": "1.5798 - 6.575 g/cm3"
+    },
+    {
+      "Material": "O4Ti2",
+      "Band Gap": "2.2517 - 2.5952 eV",
+      "Density": "3.63372 - 4.02641 g/cm3",
+      "Space Group": "P4_{2}/mnm unitless",
+      "Total Magnetization": "0 - 0 μB/atom"
+    },
+    {
+      "Material": "O6Si3",
+      "Band Gap": "5.5309 - 5.8126 eV",
+      "Density": "2.03592 - 2.62508 g/cm3",
+      "Enthalpy of Formation": "-3.09347 - -3.07133 eV/atom",
+      "Space Group": "P3_{2}21 unitless",
+      "Total Magnetization": "0 - 0 μB/atom"
+    },
+    {
+      "Material": "CdI2",
+      "Band Gap": "0 - 2.4482 eV",
+      "Density": "4.586259043338976 - 5.1138814903328385 g/cm3",
+      "Enthalpy of Formation": "-0.5922644135555555 - -0.47320867944444445 eV/atom",
+      "Space Group": "P3m1 unitless",
+      "Total Magnetization": "-0.03361833333333333 - 0.000025972413793103448 μB/atom"
+    },
+    {
+      "Material": "Fe",
+      "Density": "7.299 - 10.24 g/cm3"
+    },
+    {
+      "Material": "O2 Si1",
+      "Band Gap": "0 - 7.058 eV",
+      "Density": "0.9245115543448832 - 4.546773164982921 g/cm3",
+      "Enthalpy of Formation": "-3.073555947 - 84.97183281 eV/atom",
+      "Space Group": "P1 unitless"
+    },
+    {
+      "Material": "Fe2 Mg O4",
+      "Density": "4.362 - 5.678 g/cm3"
+    },
+    {
+      "Material": "Cd1 I2",
+      "Band Gap": "0 - 2.438 eV",
+      "Density": "5.362010703675022 - 5.5203660671550026 g/cm3",
+      "Enthalpy of Formation": "-0.701623859 - -0.582071454 eV/atom",
+      "Space Group": "Cm unitless"
+    },
+    {
+      "Material": "S1 Zn1",
+      "Band Gap": "0 - 2.319 eV",
+      "Density": "3.997880661742351 - 4.0577455561242814 g/cm3",
+      "Enthalpy of Formation": "-0.956002437 - -0.741340034 eV/atom",
+      "Space Group": "R3m unitless"
+    },
+    {
+      "Material": "O8Si4",
+      "Band Gap": "0 - 5.6433 eV",
+      "Density": "1.81682 - 7.03344 g/cm3",
+      "Enthalpy of Formation": "-12.0614 - -1.5061 eV/atom",
+      "Space Group": "P4_{1}2_{1}2 unitless",
+      "Total Magnetization": "0 - 0.333333 μB/atom"
+    },
+    {
+      "Material": "Ba1O3Ti1",
+      "Density": "3.47683 - 5.80928 g/cm3",
+      "Band Gap": "0 - 2.1586 eV",
+      "Space Group": "P4mm unitless",
+      "Total Magnetization": "0 - 0 μB/atom"
+    },
+    {
+      "Material": "Al2 Ni O4",
+      "Density": "4.467 - 4.507 g/cm3"
+    },
+    {
+      "Material": "ZnS",
+      "Band Gap": "0 - 2.0801 eV",
+      "Density": "3.9207946942197 - 4.010380497133701 g/cm3",
+      "Enthalpy of Formation": "-1.14063300703125 - -0.9299738216145835 eV/atom",
+      "Space Group": "P3m1 unitless",
+      "Total Magnetization": "-0.00000345 - 0.07374604583333333 μB/atom"
+    },
+    {
+      "Material": "Fe1",
+      "Band Gap": "0 - 0 eV",
+      "Density": "6.8686 - 9.255752629672937 g/cm3",
+      "Space Group": "Fm-3m unitless",
+      "Total Magnetization": "-0.00988075 - 3.17335 μB/atom",
+      "Enthalpy of Formation": "0 - 0.759901987 eV/atom"
+    },
+    {
+      "Material": "FeOF",
+      "Band Gap": "0 - 1.9539 eV",
+      "Density": "3.615243150835759 - 4.641650889330683 g/cm3",
+      "Enthalpy of Formation": "-2.239463493035556 - -1.9645146574799999 eV/atom",
+      "Space Group": "Pm unitless",
+      "Total Magnetization": "-1.6666665083333332 - 1.6667844166666665 μB/atom"
+    },
+    {
+      "Material": "Li3V3P8O29",
+      "Band Gap": "0.29399999999999993 - 1.2773999999999999 eV",
+      "Density": "2.447898994077792 - 2.5631745990743697 g/cm3",
+      "Enthalpy of Formation": "-2.5480865274653937 - -2.528544482465394 eV/atom",
+      "Space Group": "P1 unitless",
+      "Total Magnetization": "-1.1627906976744186e-9 - 3.1860465116279067e-7 μB/atom"
+    },
+    {
+      "Material": "Al4O6",
+      "Band Gap": "2.6164 - 5.8638 eV",
+      "Density": "3.10756 - 4.01683 g/cm3",
+      "Enthalpy of Formation": "-3.28061 - -2.99538 eV/atom",
+      "Space Group": "R-3c unitless",
+      "Total Magnetization": "0 - 0 μB/atom"
+    },
+    {
+      "Material": "Ca O5 Si Ti",
+      "Density": "3.46 - 3.717 g/cm3"
+    },
+    {
+      "Material": "Cl1K1",
+      "Band Gap": "4.7939 - 5.0588 eV",
+      "Density": "1.89673 - 2.23725 g/cm3",
+      "Enthalpy of Formation": "-1.97565 - -1.89562 eV/atom",
+      "Space Group": "Pm-3m unitless",
+      "Total Magnetization": "0 - 0 μB/atom"
+    },
+    {
+      "Material": "Fe2Se2",
+      "Band Gap": "0 - 0.6033 eV",
+      "Density": "4.0908 - 6.94347 g/cm3",
+      "Space Group": "P6_{3}/mmc unitless",
+      "Total Magnetization": "-2 - 2.00001 μB/atom"
+    },
+    {
+      "Material": "Al2 O4 Zn",
+      "Density": "4.587 - 5.242 g/cm3"
+    }
+  ],
+  "columns": [
+    {
+      "value": "Material",
+      "title": "Material"
+    },
+    {
+      "value": "Density",
+      "title": "Density"
+    },
+    {
+      "value": "Band Gap",
+      "title": "Band Gap"
+    },
+    {
+      "value": "Enthalpy of Formation",
+      "title": "Enthalpy of Formation"
+    },
+    {
+      "value": "Space Group",
+      "title": "Space Group"
+    },
+    {
+      "value": "Total Magnetization",
+      "title": "Total Magnetization"
+    }
+  ]
+}

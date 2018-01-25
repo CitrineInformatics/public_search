@@ -1,0 +1,160 @@
+{
+  "took": 15,
+  "totalNumHits": 16,
+  "hits": [
+    {
+      "id": "114201",
+      "isFeatured": false,
+      "name": "Wikipedia",
+      "description": "<table>\r\n    <tr>\r\n        <td width=60%>\r\nChemical and pharmacology data from english Wikipedia.\r\n      </td>\r\n        <td width=10%></td>\r\n        <td width=30%><strong>Records:</strong><br>11,644\r\n            <br><br>\r\n            <strong>Top properties:</strong>\r\n            <li>Molecular mass</li>\r\n            <li>Density</li>\r\n            <li>Melting point</li>\r\n        </td>\r\n    </tr>\r\n</table>",
+      "owner": "Jo Hill",
+      "email": "jo@citrine.io",
+      "numPifs": 1,
+      "updatedAt": "2017-07-22T05:56:33.599Z"
+    },
+    {
+      "id": "1160",
+      "isFeatured": true,
+      "name": "Band gaps from Strehlow and Cook",
+      "description": "This dataset was compiled by two scientists, W.H. Strehlow and E.L. Cook, at the Central Research Laboratories at 3M corporations. This dataset contains energy band gaps that are tabulated for elemental and binary compound semiconductors and insulators reported in 723 references. The method of measurement, transition, type of sample, and other pertinent information are included for each entry. The determinations believed to be the most reliable are indicated.",
+      "owner": "Kyle",
+      "email": "kyle@citrine.io",
+      "numPifs": 4,
+      "updatedAt": "2017-09-28T19:00:22.825Z"
+    },
+    {
+      "id": "1162",
+      "isFeatured": false,
+      "name": "Surface properties",
+      "owner": "Jo Hill",
+      "email": "jo@citrine.io",
+      "numPifs": 1,
+      "updatedAt": "2017-09-28T19:00:23.479Z"
+    },
+    {
+      "id": "118353",
+      "isFeatured": false,
+      "name": "Moduli and melting points",
+      "description": "This dataset contains bulk moduli and melting points of various elements and inorganic compounds collected from various sources such as handbooks, research papers, etc.",
+      "owner": "Jo Hill",
+      "email": "jo@citrine.io",
+      "numPifs": 1,
+      "updatedAt": "2017-10-23T23:00:14.544Z"
+    },
+    {
+      "id": "118466",
+      "isFeatured": false,
+      "name": "Bulk moduli",
+      "owner": "Jo Hill",
+      "email": "jo@citrine.io",
+      "numPifs": 7,
+      "updatedAt": "2017-07-22T05:58:43.395Z"
+    },
+    {
+      "id": "150139",
+      "isFeatured": false,
+      "name": "Calculated and experimental values for the total and electronic dielectric tensors and refractive index",
+      "owner": "Materials Project",
+      "email": "jo+materialsproject@citrine.io",
+      "numPifs": 1,
+      "updatedAt": "2017-07-22T06:37:10.367Z"
+    },
+    {
+      "id": "150675",
+      "isFeatured": true,
+      "name": "Materials Project",
+      "description": "                      The Materials Project provides open access to computed information on known and predicted materials.  This database is developed and maintained by researchers at Lawrence Berkeley National Lab in collaboration with multiple research universities including UC Berkeley, MIT, UCSD, Duke, Caltech, UW-Madison, and UCL Belgium.          <br><br>        This database includes DFT calculations on a large number of metallic compounds, energy materials, and also mechanical properties of many materials. You can search through the results from all four consortia, and use their data as input to predictive machine learning to estimate other materials properties. For example, you could utilize these datasets within Citrination to instantly estimate the hardness of any precipitate phase in any alloy system. These groups have invested hundreds of millions of CPU-hours running their carefully-tuned and automated simulations; Citrination puts the resulting insights in your hands.                      <strong>Records:</strong><br>69,640            <br><br>            <strong>Top properties:</strong>            <li>Enthalpy of formation</li>            <li>Band gap</li>            <li>Total magnetization</li>            ",
+      "owner": "Chris Borg",
+      "email": "cborg@citrine.io",
+      "numPifs": 3,
+      "updatedAt": "2017-08-11T22:00:08.813Z"
+    },
+    {
+      "id": "150677",
+      "isFeatured": true,
+      "name": "AFLOW distributed materials property repository",
+      "description": "This dataset is a subset of the Automatic-FLOW distributed materials property repository, a globally available high-throughput database of computationally calculated properties of over a million material compounds. It contains DFT-calculated structure and property information of compounds associated with the Inorganic Crystal Structure Database (ICSD).",
+      "owner": "Chris Borg",
+      "email": "cborg@citrine.io",
+      "numPifs": 43,
+      "updatedAt": "2017-08-14T06:00:02.222Z"
+    },
+    {
+      "id": "151000",
+      "isFeatured": false,
+      "name": "YetAnotherDensityDataset",
+      "owner": "Max Hutchinson",
+      "email": "mhutchinson@citrine.io",
+      "numPifs": 1,
+      "updatedAt": "2017-07-22T06:37:30.97Z"
+    },
+    {
+      "id": "151080",
+      "isFeatured": false,
+      "name": "arpa-e training",
+      "owner": "Erin Antono",
+      "email": "erin@citrine.io",
+      "numPifs": 12,
+      "updatedAt": "2017-07-22T06:37:33.765Z"
+    },
+    {
+      "id": "151085",
+      "isFeatured": true,
+      "name": "ARPA-E Ionics Database",
+      "description": "This dataset contains preparation, structure and property information for oxygen ion conductors. There are 3039 records with 2340 unique compounds and over 700 distinct properties. The three most common properties are crystal structure, conductivity, and activation energy. The most common crystal structures are Bismuth oxide (524 records), Fluorite (520 records), and Perovskite (391 records).\r\n\r\nDataset built with the support of ARPA-E contract DE-AR0000707 and in collaboration with the Haile group at Northwestern University.",
+      "owner": "Jo Hill",
+      "email": "jo@citrine.io",
+      "numPifs": 375,
+      "updatedAt": "2017-07-22T06:37:34.082Z"
+    },
+    {
+      "id": "151803",
+      "isFeatured": false,
+      "name": "NIST-Structural Ceramics Database",
+      "description": "The National Institute of Standards and Technology (NIST) is a measurement standards laboratory, and a non-regulatory agency of the United States Department of Commerce. Its mission is to promote innovation and industrial competitiveness.\r\n<br><br>\r\nThe NIST Structural Ceramics Database provides evaluated materials property data for a wide range of advanced ceramics known variously as structural ceramics, engineering ceramics, and fine ceramics.",
+      "owner": "Jo Hill",
+      "email": "jo@citrine.io",
+      "numPifs": 85,
+      "updatedAt": "2017-07-22T06:38:09.381Z"
+    },
+    {
+      "id": "151804",
+      "isFeatured": false,
+      "name": "NIST-High Temperature Superconductors",
+      "description": "The National Institute of Standards and Technology (NIST) is a measurement standards laboratory, and a non-regulatory agency of the United States Department of Commerce. Its mission is to promote innovation and industrial competitiveness.\r\n<br><br>\r\nThe NIST WWW High Temperature Superconductors database (WebHTS) provides evaluated thermal, mechanical, and superconducting property data for oxide superconductors. The range of materials covers the major series of compounds derived from the Y-Ba-Cu-O, Bi-Sr-Ca-Cu-O, Tl-Sr-Ca-Cu-O, and La-Cu-O chemical families, along with numerous other variants of the cuprate and bismuthate materials that are known to have superconducting phases.",
+      "owner": "Jo Hill",
+      "email": "jo@citrine.io",
+      "numPifs": 1,
+      "updatedAt": "2017-07-22T06:38:09.449Z"
+    },
+    {
+      "id": "153579",
+      "isFeatured": true,
+      "name": "Fermi surface complexity factor of thermoelectric materials",
+      "description": "This dataset contains data recently published by the thermoelectric wing of the Materials Project in Nature Computational materials and authored by Zachary Gibbs, Anubhav Jain, G. Jeffrey Snyder, et al. In this work, the authors identify and show that a new descriptor Nv*K* (called the Fermi surface complexity factor), a combination of the number of Fermi surface pockets (Nv*) and their anisotropy (K*), is highly effective in screening and ranking of potential thermoelectric materials. This is very advantageous as the calculation of this feature does not rely on the constant relaxation time approximation, and hence the scattering mechanism, which is hard to quantify. The data in this dataset includes the calculated value for this descriptor, the Seebeck and Boltztrap effective masses, etc for ~2,800 thermoelectric materials. The type of material, n-type or p-type, is listed as a property in a record.",
+      "owner": "Saurabh Bajaj",
+      "email": "sbajaj@citrine.io",
+      "numPifs": 2,
+      "updatedAt": "2017-08-26T00:00:15.23Z"
+    },
+    {
+      "id": "154629",
+      "isFeatured": false,
+      "name": "MATSCI 163 initial data",
+      "owner": "Bryce Meredig",
+      "email": "bryce@citrine.io",
+      "numPifs": 1,
+      "updatedAt": "2017-12-04T18:00:07.62Z"
+    },
+    {
+      "id": "2199",
+      "isFeatured": true,
+      "name": "DOE Hydride Database",
+      "description": "<table>\n    <tr>\n        <td width=60%>\n          The mission of the Energy Department (DOE) is to ensure America’s security and prosperity by addressing its energy, environmental and nuclear challenges through transformative science and technology solutions.\n          <br><br>\n        The creation of this database was funded by the DOE and it contains hydride data that is particularly useful in the field of hydrogen storage.\n      </td>\n        <td width=10%></td>\n        <td width=30%><strong>Records:</strong><br>2674\n            <br><br>\n            <strong>Top properties:</strong>\n            <li>Maximum hydrogen content</li>\n            <li>Maximum hydrogen/metal ratio</li>\n        </td>\n    </tr>\n</table>",
+      "owner": "Jo Hill",
+      "email": "jo@citrine.io",
+      "numPifs": 1,
+      "updatedAt": "2017-07-21T18:16:26.675Z"
+    }
+  ]
+}

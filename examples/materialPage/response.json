@@ -1,0 +1,339 @@
+{
+  "properties": {
+    "columns": [
+      {
+        "value": "Unit cell volume",
+        "title": "Unit cell volume"
+      },
+      {
+        "value": "Density",
+        "title": "Density"
+      },
+      {
+        "value": "Space group",
+        "title": "Space group"
+      },
+      {
+        "value": "Lattice parameter (a)",
+        "title": "Lattice parameter (a)"
+      },
+      {
+        "value": "Lattice parameter (b)",
+        "title": "Lattice parameter (b)"
+      },
+      {
+        "value": "Lattice parameter (c)",
+        "title": "Lattice parameter (c)"
+      },
+      {
+        "value": "Cell angle (α)",
+        "title": "Cell angle (α)"
+      },
+      {
+        "value": "Cell angle (β)",
+        "title": "Cell angle (β)"
+      },
+      {
+        "value": "Cell angle (γ)",
+        "title": "Cell angle (γ)"
+      },
+      {
+        "value": "Space group number",
+        "title": "Space group number"
+      },
+      {
+        "value": "Crystal system",
+        "title": "Crystal system"
+      },
+      {
+        "value": "Molar mass",
+        "title": "Molar mass"
+      },
+      {
+        "value": "Crystal color",
+        "title": "Crystal color"
+      },
+      {
+        "value": "Space Group",
+        "title": "Space Group"
+      },
+      {
+        "value": "Band Gap",
+        "title": "Band Gap"
+      },
+      {
+        "value": "Enthalpy of Formation",
+        "title": "Enthalpy of Formation"
+      },
+      {
+        "value": "Volume",
+        "title": "Volume"
+      },
+      {
+        "value": "Total Magnetization",
+        "title": "Total Magnetization"
+      },
+      {
+        "value": "Relative standard enthalpy",
+        "title": "Relative standard enthalpy"
+      },
+      {
+        "value": "Specific heat capacity",
+        "title": "Specific heat capacity"
+      },
+      {
+        "value": "Standard entropy",
+        "title": "Standard entropy"
+      },
+      {
+        "value": "Standard enthalpy of formation",
+        "title": "Standard enthalpy of formation"
+      },
+      {
+        "value": "Standard Gibbs free energy of formation",
+        "title": "Standard Gibbs free energy of formation"
+      },
+      {
+        "value": "Log of formation reaction rate constant",
+        "title": "Log of formation reaction rate constant"
+      },
+      {
+        "value": "Fracture Toughness",
+        "title": "Fracture Toughness"
+      }
+    ],
+    "rows": [
+      {
+        "Unit cell volume": "20 - 20243.74 A3",
+        "Density": "0.339 - 17.078380456244723 g/cm3",
+        "Lattice parameter (a)": "2.8003 - 28.06 A",
+        "Lattice parameter (b)": "2.8003 - 32.12469 A",
+        "Lattice parameter (c)": "2.706 - 60 A",
+        "Cell angle (α)": "28.1 - 112.44 °",
+        "Cell angle (β)": "28.1 - 138.19 °",
+        "Cell angle (γ)": "28.1 - 122.581 °",
+        "Molar mass": "26.98 - 6055.58 g/mol",
+        "Band Gap": "0 - 8.937 eV",
+        "Enthalpy of Formation": "-4.077007858 - 3.813282908 eV/atom",
+        "Volume": "6.02609 - 52.0687 A3/atom",
+        "Total Magnetization": "-0.49419155 - 4.18843285 μB/atom",
+        "Relative standard enthalpy": "-9.087 - 450.005 kJ/mol",
+        "Specific heat capacity": "0 - 47.235 J/K·mol",
+        "Standard entropy": "0 - 353.817 J/K·mol",
+        "Standard enthalpy of formation": "-292.806 - 927.781 kJ/mol",
+        "Standard Gibbs free energy of formation": "-16.858 - 870.181 kJ/mol",
+        "Fracture Toughness": "0.16 - 6.81 MPa·m1/2"
+      }
+    ]
+  },
+  "processDefinitions": [],
+  "composition": {
+    "columns": [
+      {
+        "value": "statistic",
+        "title": ""
+      },
+      {
+        "value": "Al",
+        "title": "Al"
+      },
+      {
+        "value": "Cr",
+        "title": "Cr"
+      },
+      {
+        "value": "Cu",
+        "title": "Cu"
+      },
+      {
+        "value": "Fe",
+        "title": "Fe"
+      },
+      {
+        "value": "Mg",
+        "title": "Mg"
+      },
+      {
+        "value": "Mn",
+        "title": "Mn"
+      },
+      {
+        "value": "Other",
+        "title": "Other"
+      },
+      {
+        "value": "Si",
+        "title": "Si"
+      },
+      {
+        "value": "Ti",
+        "title": "Ti"
+      },
+      {
+        "value": "Zn",
+        "title": "Zn"
+      }
+    ],
+    "rows": [
+      {
+        "statistic": "actualWeightPercent"
+      },
+      {
+        "statistic": "actualAtomicPercent"
+      },
+      {
+        "statistic": "idealWeightPercent",
+        "Cr": 0.1,
+        "Cu": 0.2,
+        "Fe": 0.5,
+        "Mn": 0.1,
+        "Other": 0.15,
+        "Ti": 0.1,
+        "Zn": 0.25
+      },
+      {
+        "statistic": "idealAtomicPercent"
+      }
+    ]
+  },
+  "doiLookupStrings": [
+    "10.1007/s11837-013-0755-4",
+    "10.1038/npjcompumats.2015.10",
+    "10.1063/1.4812323",
+    "10.1364/AO.22.001099",
+    "10.1021/cm503311x",
+    "10.1016/s0167-2738(99)00066-1",
+    "10.3749/canmin.46.6.1593",
+    "10.1038/sdata.2015.9",
+    "10.1007/s002690050036",
+    "10.1038/sdata.2016.80"
+  ],
+  "s3ImageUrls": [],
+  "datasetStatistics": [
+    {
+      "name": "Wikipedia",
+      "recordCount": 21,
+      "path": "114201"
+    },
+    {
+      "name": "Wikipedia - Minerals",
+      "recordCount": 185,
+      "path": "114202"
+    },
+    {
+      "name": "Surface properties",
+      "recordCount": 11,
+      "path": "1162"
+    },
+    {
+      "name": "Bulk moduli",
+      "recordCount": 8,
+      "path": "118466"
+    },
+    {
+      "name": "Boiling points of the elements",
+      "recordCount": 2,
+      "path": "134871"
+    },
+    {
+      "name": "Melting points of the elements",
+      "recordCount": 2,
+      "path": "134876"
+    },
+    {
+      "name": "Optical properties of the metals Al, Co, Cu, Au, Fe, Pb, Ni, Pd, Pt, Ag, Ti and W in the infrared and far infrared",
+      "recordCount": 63,
+      "path": "150111"
+    },
+    {
+      "name": "Eu2+ doped phosphors",
+      "recordCount": 1,
+      "path": "150123"
+    },
+    {
+      "name": "NIST-Neutron Scattering Lengths and Cross Sections",
+      "recordCount": 1,
+      "path": "150125"
+    },
+    {
+      "name": "Atomic Static Dipole Polarizabilities",
+      "recordCount": 7,
+      "path": "150138"
+    },
+    {
+      "name": "Finite temperature properties implemented within the AFLOW framework",
+      "recordCount": 1,
+      "path": "150140"
+    },
+    {
+      "name": "Density of states (1/10)",
+      "recordCount": 2,
+      "path": "150523"
+    },
+    {
+      "name": "NIST-JANAF Thermochemical Tables",
+      "recordCount": 8,
+      "path": "150556"
+    },
+    {
+      "name": "Elements commonly found in bulk metallic glasses",
+      "recordCount": 1,
+      "path": "150628"
+    },
+    {
+      "name": "Materials Project",
+      "recordCount": 93,
+      "path": "150675"
+    },
+    {
+      "name": "Open Quantum Materials Database (OQMD)",
+      "recordCount": 981,
+      "path": "150676"
+    },
+    {
+      "name": "AFLOW distributed materials property repository",
+      "recordCount": 24,
+      "path": "150677"
+    },
+    {
+      "name": "DFT Solute Diffusivity Data",
+      "recordCount": 1,
+      "path": "150922"
+    },
+    {
+      "name": "Crystallography Open Database (COD)",
+      "recordCount": 3154,
+      "path": "150967"
+    },
+    {
+      "name": "Ceramics datasheets",
+      "recordCount": 2,
+      "path": "151023"
+    },
+    {
+      "name": "Thermal conductivities of various materials",
+      "recordCount": 2,
+      "path": "151066"
+    },
+    {
+      "name": "ARPA-E Ionics Database",
+      "recordCount": 44,
+      "path": "151085"
+    },
+    {
+      "name": "NIST-Structural Ceramics Database",
+      "recordCount": 7,
+      "path": "151803"
+    },
+    {
+      "name": "NIST-High Temperature Superconductors",
+      "recordCount": 8,
+      "path": "151804"
+    },
+    {
+      "name": "NIST-Fracture Toughness",
+      "recordCount": 62,
+      "path": "151805"
+    }
+  ]
+}

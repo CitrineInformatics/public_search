@@ -1,0 +1,182 @@
+{
+  "commonMaterials": [
+    "Zirconia (TZP)",
+    "Mullite",
+    "Alumina composite",
+    "Aluminum nitride"
+  ],
+  "mostCitedReferences": [],
+  "recordCount": 4098,
+  "records": {
+    "columns": [
+      {
+        "title": "Name",
+        "value": "name"
+      },
+      {
+        "title": "Chemical Family",
+        "value": "Chemical Family"
+      },
+      {
+        "title": "Specific Heat (J kg-1 K-1)",
+        "value": "Specific Heat"
+      },
+      {
+        "title": "Crystallinity",
+        "value": "Crystallinity"
+      }
+    ],
+    "rows": [
+      {
+        "Chemical Family": "Si-O",
+        "Crystallinity": "Polycrystalline",
+        "name": "Silica",
+        "url": "151803/2/0002BB292CD4A8B64240BC3081D145FB"
+      },
+      {
+        "Chemical Family": "Al-Si-O:ZrO",
+        "Crystallinity": "Polycrystalline",
+        "name": "Mullite composite",
+        "url": "151803/2/000324953E96E96C0F66CEDF737AC87C"
+      },
+      {
+        "Chemical Family": "Al-O",
+        "Crystallinity": "Polycrystalline",
+        "name": "Alumina",
+        "url": "151803/2/000E9A9D5AC58C4EA933D244D44C460A"
+      },
+      {
+        "Chemical Family": "Si-N:CeO",
+        "Crystallinity": "Polycrystalline",
+        "name": "Silicon nitride composite",
+        "url": "151803/2/005A0BD1EBF038D2062F71F6BC711540"
+      },
+      {
+        "Chemical Family": "Si-N",
+        "Crystallinity": "Polycrystalline",
+        "name": "Silicon nitride",
+        "url": "151803/2/005B159F926473CB36B9E02F7B6A72CD"
+      },
+      {
+        "Chemical Family": "Zr-O:Y",
+        "Crystallinity": "Polycrystalline",
+        "name": "Zirconia (cubic)",
+        "url": "151803/2/005E34F80C9212BFE0122E89DAAEB2B7"
+      },
+      {
+        "Chemical Family": "Zr-O:Y",
+        "Crystallinity": "Polycrystalline",
+        "name": "Zirconia (TZP)",
+        "url": "151803/2/008219E29907E41390F6FBE9DFA10A07"
+      },
+      {
+        "Chemical Family": "Si-N",
+        "Crystallinity": "Polycrystalline",
+        "name": "Silicon nitride",
+        "url": "151803/2/008763B9B9AD6D3EEEF15C0B0636354B"
+      },
+      {
+        "Chemical Family": "Si-O",
+        "Crystallinity": "Polycrystalline",
+        "name": "Silica (fused)",
+        "url": "151803/2/00ABA3595BEACB19DB49D543C9BE19F9"
+      },
+      {
+        "Chemical Family": "Si-N:SrO,Y",
+        "Crystallinity": "Polycrystalline",
+        "name": "Silicon nitride",
+        "url": "151803/2/00B25DB1A823C90A47D2BA5B72FA1F56"
+      },
+      {
+        "Chemical Family": "Si-C",
+        "Crystallinity": "Polycrystalline",
+        "name": "Silicon carbide",
+        "url": "151803/2/00B5D8146069CBB5A155010C9523F267"
+      },
+      {
+        "Chemical Family": "Si-N",
+        "Crystallinity": "Polycrystalline",
+        "name": "Silicon nitride",
+        "url": "151803/2/00C21138CFCF92F8FB9F31BDA397F626"
+      },
+      {
+        "Chemical Family": "Si-N",
+        "Crystallinity": "Polycrystalline",
+        "name": "Silicon nitride",
+        "url": "151803/2/00C854D65F9D9C3D08FA51F0DFADCE89"
+      },
+      {
+        "Chemical Family": "Si-Al-O-N:Dy",
+        "Crystallinity": "Polycrystalline",
+        "name": "Sialon composite",
+        "url": "151803/2/00C9FDE937BBBD4A865226109E80EF20"
+      },
+      {
+        "Chemical Family": "Si-C",
+        "Crystallinity": "Polycrystalline",
+        "name": "Silicon carbide",
+        "url": "151803/2/00DF8D810B9D56AA90E34F9035FCA19B"
+      },
+      {
+        "Chemical Family": "Si-C",
+        "Crystallinity": "Polycrystalline",
+        "name": "Silicon carbide",
+        "url": "151803/2/00E41691C90621ABEC3694CE9BFB1EB7"
+      },
+      {
+        "Chemical Family": "Al-Si-O",
+        "Crystallinity": "Polycrystalline",
+        "name": "Mullite",
+        "url": "151803/2/00F3840438D7B4A02819DF581683595D"
+      },
+      {
+        "Chemical Family": "Si-C:TiB",
+        "Crystallinity": "Polycrystalline",
+        "name": "Silicon carbide composite",
+        "url": "151803/2/00FC2EF8273423D9AAD313479DC89F7D"
+      },
+      {
+        "Chemical Family": "Ni-O",
+        "Crystallinity": "Single Crystal",
+        "name": "Nickel oxide",
+        "url": "151803/2/010B7E06CBC11378DA963D6282FCDD69"
+      },
+      {
+        "Chemical Family": "Si-Al-O-N",
+        "Crystallinity": "Polycrystalline",
+        "name": "Sialon",
+        "url": "151803/2/011B242606B26678728084E7AC157F38"
+      },
+      {
+        "Chemical Family": "Si-C:B,C",
+        "Crystallinity": "Polycrystalline",
+        "name": "Silicon carbide",
+        "url": "151803/2/011DCD3BBBD13B7CB88863AFC9423A87"
+      },
+      {
+        "Chemical Family": "Zr-O:Y",
+        "Crystallinity": "Polycrystalline",
+        "name": "Zirconia (cubic)",
+        "url": "151803/2/0128BE11F948B12A9E5360060B24CF12"
+      },
+      {
+        "Chemical Family": "Zr-O:Al",
+        "Crystallinity": "Polycrystalline",
+        "name": "Zirconia (TZP)",
+        "url": "151803/2/0129BB68C6A3B3C8BECEF6993592390C"
+      },
+      {
+        "Chemical Family": "Zr-B",
+        "Crystallinity": "Polycrystalline",
+        "name": "Zirconium diboride",
+        "url": "151803/2/013A289BCC062E5F9A62D202C18779C8"
+      },
+      {
+        "Chemical Family": "Al-Si-O:ZrO",
+        "Crystallinity": "Polycrystalline",
+        "name": "Mullite composite",
+        "url": "151803/2/01500D475E0EBE5850CC962395A7E069"
+      }
+    ]
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "properties": {
+    "columns": [
+      {
+        "value": "Crystal structure",
+        "title": "Crystal structure"
+      }
+    ],
+    "rows": [
+      {}
+    ]
+  },
+  "processDefinitions": [
+    [
+      {
+        "name": "Combustion synthesis technique"
+      },
+      {
+        "name": "Calcined",
+        "details": [
+          {
+            "name": "Temperature",
+            "scalars": [
+              {
+                "value": "1000"
+              }
+            ],
+            "units": "$^{\\circ}$C"
+          },
+          {
+            "name": "Time",
+            "scalars": [
+              {
+                "value": "2"
+              }
+            ],
+            "units": "h"
+          },
+          {
+            "name": "Media",
+            "scalars": [
+              {
+                "value": "in air"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Compaction in steel dies",
+        "details": [
+          {
+            "name": "Pressure",
+            "scalars": [
+              {
+                "value": "55"
+              }
+            ],
+            "units": "MPa"
+          }
+        ]
+      },
+      {
+        "name": "Isostatically pressed",
+        "details": [
+          {
+            "name": "Pressure",
+            "scalars": [
+              {
+                "value": "138"
+              }
+            ],
+            "units": "MPa"
+          }
+        ]
+      },
+      {
+        "name": "Sintered",
+        "details": [
+          {
+            "name": "Temperature",
+            "scalars": [
+              {
+                "minimum": "1300",
+                "maximum": "1600"
+              }
+            ],
+            "units": "$^{\\circ}$C"
+          },
+          {
+            "name": "Time",
+            "scalars": [
+              {
+                "value": "2"
+              }
+            ],
+            "units": "h"
+          },
+          {
+            "name": "Media",
+            "scalars": [
+              {
+                "value": "in air"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  ],
+  "composition": {
+    "columns": [],
+    "rows": []
+  },
+  "doiLookupStrings": [
+    "10.1149/1.1393885"
+  ],
+  "s3ImageUrls": [],
+  "datasetStatistics": [
+    {
+      "name": "ARPA-E Ionics Database",
+      "recordCount": 1,
+      "path": "151085"
+    }
+  ]
+}

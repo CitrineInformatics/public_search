@@ -1,0 +1,13 @@
+[
+  {
+    "name": "Band Gap",
+    "min": 2,
+    "max": 7,
+    "units": "eV"
+  },
+  {
+  	"name": "Crystal System",
+  	"value": "monoclinic",
+  	"fromAutoComplete": false,
+  }
+]

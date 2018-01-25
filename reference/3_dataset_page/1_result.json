@@ -1,0 +1,259 @@
+{
+  "analysis": {
+    "property": {
+      "type": "categorical",
+      "buckets": [
+        {
+          "analysis": {
+            "units": {
+              "type": "categorical",
+              "buckets": [
+                {
+                  "count": 4442,
+                  "value": "S/cm"
+                }
+              ]
+            }
+          },
+          "count": 4654,
+          "value": "σ(converted from log)"
+        },
+        {
+          "analysis": {
+            "units": {
+              "type": "categorical",
+              "buckets": [
+                {
+                  "count": 4329,
+                  "value": "S/cm"
+                }
+              ]
+            }
+          },
+          "count": 4541,
+          "value": "Logσ"
+        },
+        {
+          "analysis": {
+            "units": {
+              "type": "categorical"
+            }
+          },
+          "count": 2741,
+          "value": "Crystal structure"
+        },
+        {
+          "analysis": {
+            "units": {
+              "type": "categorical",
+              "buckets": [
+                {
+                  "count": 1851,
+                  "value": "S/cm"
+                }
+              ]
+            }
+          },
+          "count": 2371,
+          "value": "Conductivity"
+        },
+        {
+          "analysis": {
+            "units": {
+              "type": "categorical",
+              "buckets": [
+                {
+                  "count": 2165,
+                  "value": "S·K/cm"
+                }
+              ]
+            }
+          },
+          "count": 2300,
+          "value": "LogσT"
+        },
+        {
+          "analysis": {
+            "units": {
+              "type": "categorical",
+              "buckets": [
+                {
+                  "count": 2165,
+                  "value": "S·K/cm"
+                }
+              ]
+            }
+          },
+          "count": 2300,
+          "value": "σT(converted from log)"
+        },
+        {
+          "analysis": {
+            "units": {
+              "type": "categorical",
+              "buckets": [
+                {
+                  "count": 1663,
+                  "value": "S/cm"
+                }
+              ]
+            }
+          },
+          "count": 1784,
+          "value": "σ (electronic)(converted from log)"
+        },
+        {
+          "analysis": {
+            "units": {
+              "type": "categorical",
+              "buckets": [
+                {
+                  "count": 1287,
+                  "value": "S·K/cm"
+                }
+              ]
+            }
+          },
+          "count": 1477,
+          "value": "(σT)(converted from log)"
+        },
+        {
+          "analysis": {
+            "units": {
+              "type": "categorical",
+              "buckets": [
+                {
+                  "count": 1113,
+                  "value": "S·K/cm"
+                }
+              ]
+            }
+          },
+          "count": 1303,
+          "value": "Log(σT)"
+        },
+        {
+          "analysis": {
+            "units": {
+              "type": "categorical",
+              "buckets": [
+                {
+                  "count": 849,
+                  "value": "S/cm"
+                }
+              ]
+            }
+          },
+          "count": 1174,
+          "value": "σ"
+        }
+      ]
+    },
+    "name": {
+      "type": "categorical"
+    },
+    "chemicalFormula": {
+      "type": "categorical",
+      "buckets": [
+        {
+          "count": 33,
+          "value": "CeO2"
+        },
+        {
+          "count": 17,
+          "value": "Bi2O3"
+        },
+        {
+          "count": 17,
+          "value": "La0.9Sr0.1Ga0.8Mg0.2O2.85"
+        },
+        {
+          "count": 13,
+          "value": "La2Mo2O9"
+        },
+        {
+          "count": 12,
+          "value": "ZrO2"
+        },
+        {
+          "count": 11,
+          "value": "Gd2Zr2O7"
+        },
+        {
+          "count": 10,
+          "value": "Ce0.8Gd0.2O1.9"
+        },
+        {
+          "count": 9,
+          "value": "(CeO2)0.8(SmO1.5)0.2"
+        },
+        {
+          "count": 9,
+          "value": "(Y2O3)0.08(ZrO2)0.92"
+        },
+        {
+          "count": 9,
+          "value": "La10(SiO4)6O3"
+        }
+      ]
+    },
+    "doi": {
+      "type": "categorical",
+      "buckets": [
+        {
+          "count": 109,
+          "value": "10.1016/0167-2738(95)00229-4"
+        },
+        {
+          "count": 93,
+          "value": "10.1016/s0955-2219(99)00009-6"
+        },
+        {
+          "count": 84,
+          "value": "10.1002/tcr.20028"
+        },
+        {
+          "count": 83,
+          "value": "10.1016/s0167-2738(99)00066-1"
+        },
+        {
+          "count": 72,
+          "value": "10.1039/b401273a"
+        },
+        {
+          "count": 64,
+          "value": "10.1016/j.ssi.2004.02.023"
+        },
+        {
+          "count": 61,
+          "value": "10.1007/bf00616848"
+        },
+        {
+          "count": 61,
+          "value": "10.1007/bf00937342"
+        },
+        {
+          "count": 57,
+          "value": "10.1016/0921-5107(88)90018-9"
+        },
+        {
+          "count": 51,
+          "value": "10.1016/0167-2738(92)90102-u"
+        }
+      ]
+    }
+  },
+  "took": 426,
+  "totalNumHits": 1,
+  "hits": [
+    {
+      "id": "151085",
+      "isFeatured": true,
+      "name": "ARPA-E Ionics Database",
+      "description": "This dataset contains preparation, structure and property information for oxygen ion conductors. There are 3039 records with 2340 unique compounds and over 700 distinct properties. The three most common properties are crystal structure, conductivity, and activation energy. The most common crystal structures are Bismuth oxide (524 records), Fluorite (520 records), and Perovskite (391 records).\r\n\r\nDataset built with the support of ARPA-E contract DE-AR0000707 and in collaboration with the Haile group at Northwestern University.",
+      "owner": "Jo Hill",
+      "email": "jo@citrine.io",
+      "updatedAt": "2017-07-22T06:37:34.082Z"
+    }
+  ]
+}
