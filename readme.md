@@ -5,15 +5,21 @@ In specific, it consists of 3 exposed methods
 
 ### General Usage
 
+`npm install citrine-public-search`
 
+`yarn add citrine-public-search`
+
+Then just reference the package, `require('citrine-public-search')`.
+The returned object literal will have the 3 methods described below
+bound to it. 
 
 ### Results Page
 
 ```javascript
-import { getResultsPageData } from 'publicSearch';
+const citrinePublicSearch = require('citrine-public-search')
 
 const userInput = <UserRequestObject>;
-const <Result> = getResultsPageData(userInput);
+const <Result> = citrinePublicSearch.getResultsPageData(userInput);
 ```
 
 ###### UserRequestObject
@@ -32,10 +38,10 @@ An example of the `data` field of `Result` for the ResultsPage request can be fo
 ### Dataset Page
 
 ```javascript
-import { getDatasetPageData } from 'publicSearch';
+const citrinePublicSearch = require('citrine-public-search')
 
 const datasetId = <DatasetId>;
-const <Result> = getDatasetPageData(datasetId);
+const <Result> = citrinePublicSearch.getDatasetPageData(datasetId);
 ```
 ###### DatasetId
 
@@ -52,10 +58,10 @@ An example of the `data` field of `Result` for the DatasetPage request can be fo
 ### Material Page
 
 ```javascript
-import { getMaterialPageData } from 'publicSearch';
+const citrinePublicSearch = require('citrine-public-search')
 
 const chemicalFormula = <ChemicalFormula>;
-const <Result> = getMaterialPageData(datasetId);
+const <Result> = citrinePublicSearch.getMaterialPageData(datasetId);
 ```
 ###### ChemicalFormula
 
