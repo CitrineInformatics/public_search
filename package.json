@@ -1,12 +1,21 @@
 {
+  "main": "./dist/index.js",
+  "prepublish": {
+    "yarn build"
+  },
   "scripts": {
-    "transpile": "./node_modules/.bin/babel  ./src --experimental --source-maps-inline -d ./dist"
+    "build": "./node_modules/.bin/babel  ./src --experimental --source-maps-inline -d ./dist"
   },
   "name": "PublicSearchLibrary",
   "version": "1.0.0",
   "description": "Simple Interface for Making Requests to Public Citrination and flattening responses",
   "main": "index.js",
-  "license": "MIT",
+  "contributors": [{
+    "name" : "Daniel Adelberg",
+    "email" : "dadelberg@citrine.io",
+  }],
+  "email": "admin@citrine.io",
+  "license": "Apache 2",
   "dependencies": {
     "promise": "^8.0.1",
     "request": "^2.83.0"
