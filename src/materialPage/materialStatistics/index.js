@@ -1,17 +1,13 @@
-import { pifSearch } from '../client';
-import Result from 'result';
+import { pifSearch } from 'client';
+import Result from 'models/result';
 import buildQuery from './query';
 
 import * as extract from './extract';
-
-
-const fs = require('fs');
 
 async function main(formula) {
   try {
     const res = await pifSearch(buildQuery(formula));
     const queryResponse = JSON.parse(res.body);
-    fs.writeFileSync('tmp/2.1res', JSON.stringify(queryResponse));
     return new Result({
       status: 'success',
       message: 'Successfully retrieved metrics for MaterialShow page',

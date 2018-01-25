@@ -1,17 +1,13 @@
 import buildQuery from './query';
 import * as extract from './extract';
 import { datasetSearch } from 'client';
-import Result from 'result';
-
-const fs = require('fs');
+import Result from 'models/result';
 
 async function main(datasetId) {
   try {
     const query = buildQuery(datasetId);
     const res = await datasetSearch(query);
     const queryResponse = JSON.parse(res.body);
-    fs.writeFileSync('tmp/3.1res', JSON.stringify(queryResponse));
-
     return new Result({
       status: 'success',
       message: 'Successfully made 2 queries to Citrination and structured response',

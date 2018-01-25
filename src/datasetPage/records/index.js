@@ -1,6 +1,6 @@
 import buildQuery from './query';
 import { pifSearch } from 'client';
-import Result from 'result';
+import Result from 'models/result';
 import processResults from './extract';
 
 async function main(datasetId, properties) {

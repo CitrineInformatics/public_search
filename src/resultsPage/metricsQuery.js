@@ -1,5 +1,5 @@
 import { pifSearch } from '../client';
-import Result from 'result';
+import Result from 'models/result';
 import { processPropertyValue } from 'utility';
 
 const fs = require('fs');
@@ -85,7 +85,7 @@ function processResults(response) {
   ];
 
 
-  const data = response.results.analysis.chemicalFormula.buckets.map((bucket) => {
+  const rows = response.results.analysis.chemicalFormula.buckets.map((bucket) => {
     const row = {};
     row.Material = bucket.value;
     bucket.analysis.property.buckets.forEach((propertyBucket) => {
@@ -103,7 +103,7 @@ function processResults(response) {
     });
     return row;
   });
-  return { data, columns };
+  return { rows, columns };
 }
 
 async function main(userQueries, properties) {

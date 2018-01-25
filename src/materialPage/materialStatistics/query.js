@@ -1,6 +1,4 @@
-const fs = require('fs');
-
-export default (formula) => {
+export default function (formula) {
   const query = {
     query: [
       {
@@ -160,6 +158,5 @@ export default (formula) => {
     returnSystem: false,
     returnExtractedPath: false,
   };
-  fs.writeFileSync('tmp/2.1req', JSON.stringify(query));
   return query;
-};
+}
