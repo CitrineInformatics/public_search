@@ -1,6 +1,6 @@
-import { datasetPage as getDatasetPageData } from './datasetPage';
-import { materialPage as getMaterialPageData } from './materialPage';
-import { resultsPage as getResultsPageData } from './resultsPage';
+import getDatasetPageData from './datasetPage';
+import getMaterialPageData from './materialPage';
+import getResultsPageData from './resultsPage';
 
 module.exports = {
   getDatasetPageData,
