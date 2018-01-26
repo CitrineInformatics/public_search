@@ -26,8 +26,8 @@ const <Result> = citrinePublicSearch.getResultsPageData(userInput);
 
 ###### UserRequestObject
 
-The UserRequestObject is an array of Property objects
-See src/resultsPage/property directory for Property definitions.
+The UserRequestObject is an array of Input objects
+See src/models/input on github for Input definitions.
 An example of this object can be found in examples/resultsPage
 
 ###### Result
