@@ -3,7 +3,7 @@
 This lib contains very specific wrappers around Citrination's public API. 
 In specific, it consists of 3 exposed methods.
 
-See sourcecode on [github](https://github.com/CitrineInformatics/public_search)
+See source code on [github](https://github.com/CitrineInformatics/public_search)
 
 ### General Usage
 
