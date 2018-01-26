@@ -8,7 +8,7 @@ async function main() {
     const chemicalPrefill = await getChemicalFormulaHash();
     const propertiesPrefill = await getPropertiesHash();
 
-    const finalPrefill =  Object.assign(propertiesPrefill, chemicalPrefill);
+    const finalPrefill = Object.assign(propertiesPrefill, chemicalPrefill);
     fs.writeFileSync('tmp/constants', JSON.stringify(finalPrefill));
     return finalPrefill;
   } catch (e) {
@@ -16,5 +16,4 @@ async function main() {
   }
 }
 
-main().then(r => console.log(r));
 export default main;

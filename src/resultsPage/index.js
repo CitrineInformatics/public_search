@@ -3,7 +3,6 @@ import retrieveMetrics from './metrics';
 import Result from 'models/result';
 import { process as processInput } from 'models/input';
 
-
 async function firstPageResults(userInput) {
   const inputs = userInput.map(u => processInput(u).toSystem());
   try {
@@ -15,14 +14,10 @@ async function firstPageResults(userInput) {
     console.log(e);
     return new Result({
       error: e,
-      message: "Failed Results Page Query",
+      message: 'Failed Results Page Query',
       status: 'fail',
     });
   }
 }
-
-firstPageResults([{type: "none", value: "Band Gap"}]).then(function (res) {
-  console.log(res)
-});
 
 export default firstPageResults;
