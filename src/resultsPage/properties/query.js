@@ -6,7 +6,6 @@ export default function (inputs) {
     size: 0,
   };
 
-
   // Add Aggregations Query
   query.query[0].system.push({
     logic: 'MUST',
