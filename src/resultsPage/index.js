@@ -8,7 +8,6 @@ async function firstPageResults(userInput) {
   try {
     const properties = await retrieveProperties(inputs);
     const response = await retrieveMetrics(inputs, properties);
-    console.log(response);
     return response;
   } catch (e) {
     console.log(e);

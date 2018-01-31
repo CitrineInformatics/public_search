@@ -9,5 +9,11 @@ async function showMaterialPage(formula) {
   }
   return materialResults;
 }
+const fs = require('fs');
+showMaterialPage("Al").then(function (res) {
+  console.log("boop")
+  fs.writeFileSync('tmp/materialPage', JSON.stringify(res));
+});
+
 
 export default showMaterialPage;

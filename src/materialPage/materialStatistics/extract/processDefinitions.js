@@ -1,3 +1,5 @@
+import publicSearchPresenter from 'models/pif/presenters/publicSearchProcessStep';
+
 export default (queryResponse) => {
   const preparations = [];
   if (queryResponse.results.hits) {
@@ -7,5 +9,6 @@ export default (queryResponse) => {
       }
     });
   }
-  return preparations;
+
+  return publicSearchPresenter(preparations);
 };
