@@ -19,4 +19,21 @@ async function firstPageResults(userInput) {
   }
 }
 
-export default firstPageResults;
+/**
+ * For now, use this input block for the suggested
+ * links at the bottom of the page
+ * (as indicated in the mockups)
+ * Once we have the first iteration we
+ * will write out more verbose queries for * you
+ * that we'll put in in place of this query
+ * To use, simply pass this value into firstPageResults
+ * @type {Object}
+ */
+const suggestedInput = [
+  {
+    type: 'none',
+    value: '',
+  },
+];
+
+export { firstPageResults, suggestedInput };
