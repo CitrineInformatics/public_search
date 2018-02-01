@@ -1,59 +1,15 @@
 import index from './index';
 
-const expected = [
-  {
-    name: 'Solution Treatment',
-    details: [
-      {
-        name: 'Temperature',
-        value: '1323 K',
-      },
-      {
-        name: 'Time',
-        value: '4800 s',
-      },
-      {
-        name: 'Quench',
-        value: 'Water quenched after solution treatment',
-      },
-    ],
-  },
-];
+import simpleProcessStepInput from './spechelper/simpleProcessStep/input.json';
+import simpleProcessStepExpected from './spechelper/simpleProcessStep/expected.json';
 
-const processingDefinitions = [
-  {
-    details: [
-      {
-        name: 'Temperature',
-        scalars: [
-          {
-            value: '1323',
-          },
-        ],
-        units: 'K',
-      },
-      {
-        name: 'Time',
-        scalars: [
-          {
-            value: '4800',
-          },
-        ],
-        units: 's',
-      },
-      {
-        name: 'Quench',
-        scalars: [
-          {
-            value: 'Water quenched after solution treatment',
-          },
-        ],
-      },
-    ],
-    name: 'Solution Treatment',
-  },
-];
+import complexDetailsProcessStepInput from './spechelper/complexDetailsProcessStep/input.json';
+import complexDetailsProcessStepExpected from './spechelper/complexDetailsProcessStep/expected.json';
 
-it ('should export in a specific way', () => {
-  expect(index(processingDefinitions)).toEqual(expected);
+it('should simplify scalars on export', () => {
+  expect(index(simpleProcessStepInput)).toEqual(simpleProcessStepExpected);
+});
+
+it('should simplify complicated scalars on export', () => {
+  expect(index(complexDetailsProcessStepInput)).toEqual(complexDetailsProcessStepExpected);
 });

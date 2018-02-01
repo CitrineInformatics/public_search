@@ -4,7 +4,7 @@ import FileReference from '../fileReference';
 
 function compressScalars(scalars, units) {
   if (units) {
-    return `${scalars.join(', ')} ${units}`;
+    return scalars.map(s => `${s} ${units}`).join(', ');
   }
   return `${scalars.join(', ')}`;
 }
@@ -31,18 +31,6 @@ class Value extends PifComponent {
       this.scalars = [];
     }
 
-    if (rawValue.vectors && Array.isArray(rawValue.vectors)) {
-      this.vectors = rawValue.vectors.map(v => new Scalar(v));
-    } else {
-      this.vectors = [];
-    }
-
-    if (rawValue.matrices && Array.isArray(rawValue.matrices)) {
-      this.matrices = rawValue.matrices.map(m => new Scalar(m));
-    } else {
-      this.matrices = [];
-    }
-
     if (rawValue.files && Array.isArray(rawValue.files)) {
       this.files = rawValue.files.map(f => new FileReference(f));
     } else {
@@ -57,24 +45,12 @@ class Value extends PifComponent {
       retJSON.name = this.name;
     }
 
-    if (this.units) {
-      // retJSON.units = this.units;
-    }
-
     if (this.tags) {
       retJSON.tags = this.tags;
     }
 
     if (this.scalars.length > 0) {
       retJSON.value = compressScalars(this.scalars.map(s => s.toString()), this.units);
-    }
-
-    if (this.vectors.length > 0) {
-      this.vectors.map(v => v.toString(this.units));
-    }
-
-    if (this.matrices.length > 0) {
-      this.matrices.map(m => m.toString(this.units));
     }
 
     if (this.files.length > 0) {

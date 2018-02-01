@@ -1,7 +1,5 @@
 import ProcessStep from 'models/pif/components/processStep';
 
-export default function (processingDefinitions) {
-  return processingDefinitions.map((pd) => {
-    return (new ProcessStep(pd)).toJSON();
-  });
+export default function (preparation) {
+  return preparation.map(pd => (new ProcessStep(pd)).toJSON());
 }

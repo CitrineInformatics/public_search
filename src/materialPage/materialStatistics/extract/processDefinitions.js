@@ -10,5 +10,5 @@ export default (queryResponse) => {
     });
   }
 
-  return publicSearchPresenter(preparations);
+  return preparations.map(p => publicSearchPresenter(p));
 };
