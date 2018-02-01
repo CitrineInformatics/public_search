@@ -37,6 +37,12 @@ arbitrary object, which changes depending on endpoint.
 
 An example of the `data` field of `Result` for the ResultsPage request can be found in examples/resultsPage/response
 
+###### Suggested Results
+
+In addition to the main page results, I also provide a suggestedInput array for the links at the bottom of the mockups.
+
+The link should make a request to `getResultsPageData` with the provided `suggestedInput` and the only argument. Upon receipt, the page should update with the new values.
+
 ### Dataset Page
 
 ```javascript
