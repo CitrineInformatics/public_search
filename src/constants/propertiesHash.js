@@ -23,7 +23,8 @@ const query = {
               analysis: {
                 type: 'categorical',
                 path: 'name',
-                size: 10,
+                size: 2000,
+                traversalMode: 'breadth_first',
               },
             },
             value: {
@@ -32,20 +33,18 @@ const query = {
                   type: 'statistics',
                   path: 'name.units.statistics',
                 },
-                {
-                  type: 'categorical',
-                  path: 'name.units.categories',
-                },
               ],
             },
-            units: {
-              analysis: {
-                type: 'categorical',
-                path: 'name.units',
-                size: 1,
-                missing: 'unitless',
+            units: [
+              {
+                analysis: {
+                  type: 'categorical',
+                  path: 'name.units',
+                  size: 1,
+                  missing: 'unitless',
+                },
               },
-            },
+            ],
           },
         },
       ],
@@ -71,7 +70,7 @@ function extract(queryResponse) {
     } else if (unitBuckets &&
                unitBuckets[0] &&
                unitBuckets[0].value === 'unitless') {
-      const options = unitBuckets[0].analysis.categories.buckets.map(b => b.value);
+      const options = [];
       prefill[nameBucket.value] = new CategoricalProperty(
         nameBucket.value,
         options,

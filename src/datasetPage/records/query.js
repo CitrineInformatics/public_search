@@ -49,7 +49,29 @@ function buildQuery(datasetId, properties) {
                 extractAs: 'Name',
               },
             ],
-            properties: [],
+            properties: [
+              {
+                logic: 'OPTIONAL',
+                file: [
+                  {
+                    relativePath: [
+                      {
+                        extractAs: 'image',
+                      },
+                    ],
+                    mimeType: [
+                      {
+                        filter: [
+                          {
+                            equal: 'image',
+                          },
+                        ],
+                      },
+                    ],
+                  },
+                ],
+              },
+            ],
           },
         ],
       },

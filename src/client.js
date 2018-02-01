@@ -8,7 +8,6 @@ const headers = {
   'X-Citrination-API-Version': '1.0.0',
 };
 const site = 'https://citrination.com';
-// const datasetSearch = `${site}/search/dataset`;
 
 function pifSearch(query) {
   return new Promise((resolve, reject) => {
@@ -20,7 +19,7 @@ function pifSearch(query) {
       if (response.statusCode === 200) {
         resolve({ body });
       } else {
-        reject(new Error('Oops'));
+        reject(new Error(error));
       }
     });
   });
@@ -36,10 +35,10 @@ function datasetSearch(query) {
       if (response.statusCode === 200) {
         resolve({ body });
       } else {
-        reject(new Error('Oops'));
+        reject(new Error(error));
       }
     });
-  })
+  });
 }
 
 /**

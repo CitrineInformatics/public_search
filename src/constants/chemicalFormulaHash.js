@@ -22,7 +22,7 @@ const query = {
             analysis: {
               type: 'categorical',
               path: 'chemicalFormula',
-              size: 10,
+              size: 2000,
             },
           },
         },
