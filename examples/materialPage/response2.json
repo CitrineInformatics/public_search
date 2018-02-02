@@ -13,96 +13,82 @@
   "processDefinitions": [
     [
       {
-        "name": "Combustion synthesis technique"
-      },
-      {
-        "name": "Calcined",
+        "name": "Solution Treatment",
         "details": [
           {
             "name": "Temperature",
-            "scalars": [
-              {
-                "value": "1000"
-              }
-            ],
-            "units": "$^{\\circ}$C"
+            "value": "1323 K"
           },
           {
             "name": "Time",
-            "scalars": [
-              {
-                "value": "2"
-              }
-            ],
-            "units": "h"
+            "value": "4800 s"
           },
           {
-            "name": "Media",
-            "scalars": [
-              {
-                "value": "in air"
-              }
-            ]
+            "name": "Quench",
+            "value": "Water quenched after solution treatment"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "name": "JfhzrZu",
+        "details": [
+          {
+            "name": "BWRatfRnFRG",
+            "value": "59 cm, 62 cm"
+          },
+          {
+            "name": "qFzlDKqVKtzRdqKEbh",
+            "value": "56"
           }
         ]
       },
       {
-        "name": "Compaction in steel dies",
+        "name": "jxfYagCmspDyURiU",
         "details": [
           {
-            "name": "Pressure",
-            "scalars": [
-              {
-                "value": "55"
-              }
-            ],
-            "units": "MPa"
+            "name": "ATgF",
+            "value": "85 wOO"
+          },
+          {
+            "name": "Qpjbt",
+            "value": "66 %"
           }
         ]
       },
       {
-        "name": "Isostatically pressed",
+        "name": "rLkyxemuf",
         "details": [
           {
-            "name": "Pressure",
-            "scalars": [
-              {
-                "value": "138"
-              }
-            ],
-            "units": "MPa"
+            "name": "roAt",
+            "value": "28 XmxZPUpBaIzrFEzvMWs"
+          },
+          {
+            "name": "UtPJPMEYbGHVdl",
+            "value": "55 ZswOfXXY"
           }
         ]
       },
       {
-        "name": "Sintered",
+        "name": "TEnfEEfFGADOB",
         "details": [
           {
-            "name": "Temperature",
-            "scalars": [
-              {
-                "minimum": "1300",
-                "maximum": "1600"
-              }
-            ],
-            "units": "$^{\\circ}$C"
+            "name": "evhG",
+            "value": "94 JhEULqIJm"
           },
           {
-            "name": "Time",
-            "scalars": [
-              {
-                "value": "2"
-              }
-            ],
-            "units": "h"
-          },
+            "name": "vESKpFQuuHeVXHFsLdhr",
+            "value": "90 undByPOhErV"
+          }
+        ]
+      },
+      {
+        "name": "DvheeVIKzlhzRXXP",
+        "details": [
           {
-            "name": "Media",
-            "scalars": [
-              {
-                "value": "in air"
-              }
-            ]
+            "name": "RazW",
+            "value": "22 %"
           }
         ]
       }

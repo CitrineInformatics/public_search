@@ -1,0 +1,206 @@
+{
+  "datasetDetails": {
+    "name": "Ultra High Carbon Steel (UHCS) SEM Dataset",
+    "description": "UHCS data set presented in DeCost, Brian L., Toby Francis, and Elizabeth A. Holm. \"Exploring the microstructure manifold: image texture representations applied to ultrahigh carbon steel microstructures.\" Acta Materialia (2017)."
+  },
+  "recordCount": 710,
+  "commonMaterials": [],
+  "mostCitedReferences": [
+    "http://hdl.handle.net/11256/940"
+  ],
+  "records": {
+    "rows": [
+      {
+        "url": "152980/1/0038ABA4707697B52BEB991F8C0E560F",
+        "name": "Fe$_{.98}$C$_{.02}$",
+        "primary microconstituent": "pearlite",
+        "magnification": "24551"
+      },
+      {
+        "url": "152980/1/016B8D7B353F07D528B6EE3A54A2BA80",
+        "name": "Fe$_{.98}$C$_{.02}$",
+        "primary microconstituent": "network",
+        "magnification": "49"
+      },
+      {
+        "url": "152980/1/01A345E427FBB68FD9F790ED72ABB0E4",
+        "name": "Fe$_{.98}$C$_{.02}$",
+        "primary microconstituent": "pearlite",
+        "magnification": "1964"
+      },
+      {
+        "url": "152980/1/01D00BE9D98F01A279738472D52BEA13",
+        "name": "Fe$_{.98}$C$_{.02}$",
+        "primary microconstituent": "spheroidite",
+        "magnification": "1964"
+      },
+      {
+        "url": "152980/1/01E2C14F4AAB43CCE0EC09D4959E4A2F",
+        "name": "Fe$_{.98}$C$_{.02}$",
+        "primary microconstituent": "spheroidite",
+        "magnification": "1964"
+      },
+      {
+        "url": "152980/1/01F2DCB901905B6AAB8E0C956845E6EB",
+        "name": "Fe$_{.98}$C$_{.02}$",
+        "primary microconstituent": "spheroidite",
+        "magnification": "4910"
+      },
+      {
+        "url": "152980/1/02D8847503758D22BEEA5FAEBE36B307",
+        "name": "Fe$_{.98}$C$_{.02}$",
+        "primary microconstituent": "network",
+        "magnification": "98"
+      },
+      {
+        "url": "152980/1/02E13B35714E9C69E51405CBF185D1A0",
+        "name": "Fe$_{.98}$C$_{.02}$",
+        "primary microconstituent": "spheroidite",
+        "magnification": "491"
+      },
+      {
+        "url": "152980/1/034906E817D27602E8EA7DAD159E0126",
+        "name": "Fe$_{.98}$C$_{.02}$",
+        "primary microconstituent": "pearlite"
+      },
+      {
+        "url": "152980/1/04382AA401721022C187507A78EA943F",
+        "name": "Fe$_{.98}$C$_{.02}$",
+        "primary microconstituent": "network",
+        "magnification": "98"
+      },
+      {
+        "url": "152980/1/04A69CA8425CAB2C90C1B7D4A8008414",
+        "name": "Fe$_{.98}$C$_{.02}$",
+        "primary microconstituent": "pearlite"
+      },
+      {
+        "url": "152980/1/04C6733AF2950D81B4C39C04CAC0A1CF",
+        "name": "Fe$_{.98}$C$_{.02}$",
+        "primary microconstituent": "spheroidite",
+        "magnification": "982"
+      },
+      {
+        "url": "152980/1/04D61601FA992243284BD97928873B4F",
+        "name": "Fe$_{.98}$C$_{.02}$",
+        "primary microconstituent": "spheroidite",
+        "magnification": "3437"
+      },
+      {
+        "url": "152980/1/055D86DF9EBA13D412FF0999C474B886",
+        "name": "Fe$_{.98}$C$_{.02}$",
+        "primary microconstituent": "network",
+        "magnification": "98"
+      },
+      {
+        "url": "152980/1/059718E273FB2776B1D1F95BA01EC400",
+        "name": "Fe$_{.98}$C$_{.02}$",
+        "primary microconstituent": "network"
+      },
+      {
+        "url": "152980/1/05E3AD58812474AAB1EC5E66CDFB9EEB",
+        "name": "Fe$_{.98}$C$_{.02}$",
+        "primary microconstituent": "spheroidite",
+        "magnification": "491"
+      },
+      {
+        "url": "152980/1/07459A95690C8C6776B4BF567E231109",
+        "name": "Fe$_{.98}$C$_{.02}$",
+        "primary microconstituent": "spheroidite",
+        "magnification": "1964"
+      },
+      {
+        "url": "152980/1/074EA2122CA872A9743D22582A003046",
+        "name": "Fe$_{.98}$C$_{.02}$",
+        "primary microconstituent": "pearlite",
+        "magnification": "63833"
+      },
+      {
+        "url": "152980/1/07D38F28AA1864ED30616E5F478BA61F",
+        "name": "Fe$_{.98}$C$_{.02}$",
+        "primary microconstituent": "network"
+      },
+      {
+        "url": "152980/1/07D8B5A4C7D9D4219EEED231EFF9EDD9",
+        "name": "Fe$_{.98}$C$_{.02}$",
+        "primary microconstituent": "pearlite",
+        "magnification": "982"
+      },
+      {
+        "url": "152980/1/082771C28567100CA910AFDE6CC849A6",
+        "name": "Fe$_{.98}$C$_{.02}$",
+        "primary microconstituent": "pearlite",
+        "magnification": "14731"
+      },
+      {
+        "url": "152980/1/086D8F87D1EE5ADA9B4F1CDE10D5FB5E",
+        "name": "Fe$_{.98}$C$_{.02}$",
+        "primary microconstituent": "network",
+        "magnification": "49"
+      },
+      {
+        "url": "152980/1/088428E246E9A4BC2B7FA06AECC3162F",
+        "name": "Fe$_{.98}$C$_{.02}$",
+        "primary microconstituent": "spheroidite",
+        "magnification": "982"
+      },
+      {
+        "url": "152980/1/08BD2AAFB14E9712795296D5310596DF",
+        "name": "Fe$_{.98}$C$_{.02}$",
+        "primary microconstituent": "spheroidite",
+        "magnification": "1964"
+      },
+      {
+        "url": "152980/1/097945A74C4DFFF3ECD152D6F7FD2FFB",
+        "name": "Fe$_{.98}$C$_{.02}$",
+        "primary microconstituent": "spheroidite",
+        "magnification": "4910"
+      }
+    ],
+    "columns": [
+      {
+        "value": "name",
+        "title": "Name"
+      },
+      {
+        "value": "SEM",
+        "title": "SEM"
+      },
+      {
+        "value": "primary microconstituent",
+        "title": "primary microconstituent"
+      },
+      {
+        "value": "magnification",
+        "title": "magnification"
+      }
+    ]
+  },
+  "s3ImageUrls": [
+    "https://citrination-fe-server-uploads-public-us-west-2.s3-us-west-2.amazonaws.com/d78b4a3e-cdbf-47aa-a841-5bfffbe840f4.jpg?response-content-disposition=attachment%3B%20filename%3D%22semdecost_all367.jpg%22&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAJHOMTGGWDEBA2QGQ%2F20180202%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20180202T191113Z&X-Amz-Expires=900&X-Amz-Security-Token=FQoDYXdzEEsaDL459Ty8eKTQMp0BCyK3AzDXUyxP2Ldketkg3Lw6s03MKbEOjjMvB8LZXB%2FzC4ficdZxNNxZC1LD8ANrqsImB6WyTQfjen6rMCE%2BYN5bf%2BDB2glE7RcjKqPfR36oj524HrjgukMB7WBjQ8X2uNet5ZVuObk6xpYtFO1y7Oiqd5Fzcf%2Fc4z02kIIcYWqCgKciOok9GYvUlskUGXc25Hlo6Ae5pLXmhuWHscdUzTOraLwFDVilW6O%2FNtcA1Bm%2F9jmQlfP7IpIW5d6TDCeFwYr540OBx3zEdFpihaQ3Gc6BgkIc4E0aEvahLlSrX6VEhQXjMA9Gsp6kTU6x7pWmtUof45XarXnifupSpOzQ10%2FLPthxfbd2Id3AMFZIzLDFzCX4nF2HEwlGFCj0zMM88zzZukFP%2BJxxNlSdeiFwCM03m%2FERsT%2B6NRVo7dXpfkbMJADqlGsdeTJ4zv3zywfK7%2BeqQnaVkT8PmmJZs5ERawivsgJLAOp6%2BvQ5Qf2Fg9THQRX0ho02fHsF2thfMAb7THIqKFaCd0qfBO7fYtUK24Wpl%2BC7NLcIgDbRd6XN7ZbBxrZkQgErapdeMPpwNmB77%2B%2Fd7%2F75CVLu%2BNYoi9bS0wU%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=d08e643e321c64004a044f06feead4981df676701d2e75f343fb179d75f211ce",
+    "https://citrination-fe-server-uploads-public-us-west-2.s3-us-west-2.amazonaws.com/ce42889b-7bd1-4b77-9eb1-1f526edb2948.jpg?response-content-disposition=attachment%3B%20filename%3D%22semdecost_all258.jpg%22&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAJDS3XAGWRSEFU2RA%2F20180202%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20180202T191113Z&X-Amz-Expires=900&X-Amz-Security-Token=FQoDYXdzEEwaDIvGG%2BYL5%2FVZJAFY5SK3AzzSRl9HOP63HJyhBGPFRxl2GHmRwsmV65YGhAjg5Ic8I9zuMVeEBRAfqfgYU0fDdFd7ygP8NLB09K4sZ7l5ydJEKxpWtKdy5PbyAUjtR3Kub4krJYvtBC6hw7YISMktK89VNl%2FjuDsj265MeBsCOPQkslGZwLYXkrzNhYwwS9dZAMIA4C9eteGe1Kx61JlHpWx58t82qQb19UES4Uxi%2B3WXzPQeBn0lt6fuXfFajzVbAqGqSnc9T3T%2BVBnmxSzXjVzTGG0WjnDVLUErIAdd29j8QPcDTDJqNnaFFfpU2ssx7utGKrNx6I5OhRdpaANHCG9o%2Bi7ZQ5cbqyQVd24Ezk7JXcDMc6Qer%2F4NVgFBM94x%2FmaWhciuIGP7kI4omlG%2Fazl8IneNp6KdvTny8MS16XcB46V9EfCNZxEALVUx7dYkZd6HoAwNEdCO4hnR0t9ynljrp36482E4fmnNtu5hV5en1GaSbm3SSf5AGRyTScRTmNQsPLlLJ8q8MM0PLIkX0hxsxrFF4MOnMKSCl5%2BPagVgRmv16wjxMgzA1%2F%2Bjh2b4OXPJe3vcNXK1wZYHpmor3sgOtb3A7Zwoy%2BzS0wU%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=d340328fd09bc10dea3f69863932b817375c5ce4b5ab951adb10d9219390a7de",
+    "https://citrination-fe-server-uploads-public-us-west-2.s3-us-west-2.amazonaws.com/b3e95fcd-f4b3-43ce-baed-ee18d55531af.jpg?response-content-disposition=attachment%3B%20filename%3D%22semdecost_all227.jpg%22&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAJDS3XAGWRSEFU2RA%2F20180202%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20180202T191113Z&X-Amz-Expires=900&X-Amz-Security-Token=FQoDYXdzEEwaDIvGG%2BYL5%2FVZJAFY5SK3AzzSRl9HOP63HJyhBGPFRxl2GHmRwsmV65YGhAjg5Ic8I9zuMVeEBRAfqfgYU0fDdFd7ygP8NLB09K4sZ7l5ydJEKxpWtKdy5PbyAUjtR3Kub4krJYvtBC6hw7YISMktK89VNl%2FjuDsj265MeBsCOPQkslGZwLYXkrzNhYwwS9dZAMIA4C9eteGe1Kx61JlHpWx58t82qQb19UES4Uxi%2B3WXzPQeBn0lt6fuXfFajzVbAqGqSnc9T3T%2BVBnmxSzXjVzTGG0WjnDVLUErIAdd29j8QPcDTDJqNnaFFfpU2ssx7utGKrNx6I5OhRdpaANHCG9o%2Bi7ZQ5cbqyQVd24Ezk7JXcDMc6Qer%2F4NVgFBM94x%2FmaWhciuIGP7kI4omlG%2Fazl8IneNp6KdvTny8MS16XcB46V9EfCNZxEALVUx7dYkZd6HoAwNEdCO4hnR0t9ynljrp36482E4fmnNtu5hV5en1GaSbm3SSf5AGRyTScRTmNQsPLlLJ8q8MM0PLIkX0hxsxrFF4MOnMKSCl5%2BPagVgRmv16wjxMgzA1%2F%2Bjh2b4OXPJe3vcNXK1wZYHpmor3sgOtb3A7Zwoy%2BzS0wU%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=77f3c2d04557270003ce76ef9dcae5edf9552cf31684a77be5825c0f550fd56a",
+    "https://citrination-fe-server-uploads-public-us-west-2.s3-us-west-2.amazonaws.com/a2fe0850-1bba-47f5-9460-45c2d211b7bf.jpg?response-content-disposition=attachment%3B%20filename%3D%22semdecost_all204.jpg%22&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAJDS3XAGWRSEFU2RA%2F20180202%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20180202T191112Z&X-Amz-Expires=900&X-Amz-Security-Token=FQoDYXdzEEwaDIvGG%2BYL5%2FVZJAFY5SK3AzzSRl9HOP63HJyhBGPFRxl2GHmRwsmV65YGhAjg5Ic8I9zuMVeEBRAfqfgYU0fDdFd7ygP8NLB09K4sZ7l5ydJEKxpWtKdy5PbyAUjtR3Kub4krJYvtBC6hw7YISMktK89VNl%2FjuDsj265MeBsCOPQkslGZwLYXkrzNhYwwS9dZAMIA4C9eteGe1Kx61JlHpWx58t82qQb19UES4Uxi%2B3WXzPQeBn0lt6fuXfFajzVbAqGqSnc9T3T%2BVBnmxSzXjVzTGG0WjnDVLUErIAdd29j8QPcDTDJqNnaFFfpU2ssx7utGKrNx6I5OhRdpaANHCG9o%2Bi7ZQ5cbqyQVd24Ezk7JXcDMc6Qer%2F4NVgFBM94x%2FmaWhciuIGP7kI4omlG%2Fazl8IneNp6KdvTny8MS16XcB46V9EfCNZxEALVUx7dYkZd6HoAwNEdCO4hnR0t9ynljrp36482E4fmnNtu5hV5en1GaSbm3SSf5AGRyTScRTmNQsPLlLJ8q8MM0PLIkX0hxsxrFF4MOnMKSCl5%2BPagVgRmv16wjxMgzA1%2F%2Bjh2b4OXPJe3vcNXK1wZYHpmor3sgOtb3A7Zwoy%2BzS0wU%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=bde0667190e4b5eb1cca22e71367b5d7048ec043609113ba5aec101c8fd4a544",
+    "https://citrination-fe-server-uploads-public-us-west-2.s3-us-west-2.amazonaws.com/f5c75e6a-9988-437b-bba8-72af5d5510e8.jpg?response-content-disposition=attachment%3B%20filename%3D%22semdecost_all190.jpg%22&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAJHOMTGGWDEBA2QGQ%2F20180202%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20180202T191113Z&X-Amz-Expires=900&X-Amz-Security-Token=FQoDYXdzEEsaDL459Ty8eKTQMp0BCyK3AzDXUyxP2Ldketkg3Lw6s03MKbEOjjMvB8LZXB%2FzC4ficdZxNNxZC1LD8ANrqsImB6WyTQfjen6rMCE%2BYN5bf%2BDB2glE7RcjKqPfR36oj524HrjgukMB7WBjQ8X2uNet5ZVuObk6xpYtFO1y7Oiqd5Fzcf%2Fc4z02kIIcYWqCgKciOok9GYvUlskUGXc25Hlo6Ae5pLXmhuWHscdUzTOraLwFDVilW6O%2FNtcA1Bm%2F9jmQlfP7IpIW5d6TDCeFwYr540OBx3zEdFpihaQ3Gc6BgkIc4E0aEvahLlSrX6VEhQXjMA9Gsp6kTU6x7pWmtUof45XarXnifupSpOzQ10%2FLPthxfbd2Id3AMFZIzLDFzCX4nF2HEwlGFCj0zMM88zzZukFP%2BJxxNlSdeiFwCM03m%2FERsT%2B6NRVo7dXpfkbMJADqlGsdeTJ4zv3zywfK7%2BeqQnaVkT8PmmJZs5ERawivsgJLAOp6%2BvQ5Qf2Fg9THQRX0ho02fHsF2thfMAb7THIqKFaCd0qfBO7fYtUK24Wpl%2BC7NLcIgDbRd6XN7ZbBxrZkQgErapdeMPpwNmB77%2B%2Fd7%2F75CVLu%2BNYoi9bS0wU%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=7c66a28aacdabb4daf2359bb2bf60cc5d33ff62b892ffcc9810116aa0e8b56da",
+    "https://citrination-fe-server-uploads-public-us-west-2.s3-us-west-2.amazonaws.com/ea3cd410-9f0b-4c01-bd0f-4f36592e127b.jpg?response-content-disposition=attachment%3B%20filename%3D%22semdecost_all353.jpg%22&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAJDS3XAGWRSEFU2RA%2F20180202%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20180202T191113Z&X-Amz-Expires=900&X-Amz-Security-Token=FQoDYXdzEEwaDIvGG%2BYL5%2FVZJAFY5SK3AzzSRl9HOP63HJyhBGPFRxl2GHmRwsmV65YGhAjg5Ic8I9zuMVeEBRAfqfgYU0fDdFd7ygP8NLB09K4sZ7l5ydJEKxpWtKdy5PbyAUjtR3Kub4krJYvtBC6hw7YISMktK89VNl%2FjuDsj265MeBsCOPQkslGZwLYXkrzNhYwwS9dZAMIA4C9eteGe1Kx61JlHpWx58t82qQb19UES4Uxi%2B3WXzPQeBn0lt6fuXfFajzVbAqGqSnc9T3T%2BVBnmxSzXjVzTGG0WjnDVLUErIAdd29j8QPcDTDJqNnaFFfpU2ssx7utGKrNx6I5OhRdpaANHCG9o%2Bi7ZQ5cbqyQVd24Ezk7JXcDMc6Qer%2F4NVgFBM94x%2FmaWhciuIGP7kI4omlG%2Fazl8IneNp6KdvTny8MS16XcB46V9EfCNZxEALVUx7dYkZd6HoAwNEdCO4hnR0t9ynljrp36482E4fmnNtu5hV5en1GaSbm3SSf5AGRyTScRTmNQsPLlLJ8q8MM0PLIkX0hxsxrFF4MOnMKSCl5%2BPagVgRmv16wjxMgzA1%2F%2Bjh2b4OXPJe3vcNXK1wZYHpmor3sgOtb3A7Zwoy%2BzS0wU%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=b423301e98800d7bbbec3317d5c8060c16ff3704502281a7f4c859dbea12c7eb",
+    "https://citrination-fe-server-uploads-public-us-west-2.s3-us-west-2.amazonaws.com/2c52abdd-9cc3-4656-b3b1-b21a3820d2f5.jpg?response-content-disposition=attachment%3B%20filename%3D%22semdecost_all523.jpg%22&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAJHOMTGGWDEBA2QGQ%2F20180202%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20180202T191113Z&X-Amz-Expires=900&X-Amz-Security-Token=FQoDYXdzEEsaDL459Ty8eKTQMp0BCyK3AzDXUyxP2Ldketkg3Lw6s03MKbEOjjMvB8LZXB%2FzC4ficdZxNNxZC1LD8ANrqsImB6WyTQfjen6rMCE%2BYN5bf%2BDB2glE7RcjKqPfR36oj524HrjgukMB7WBjQ8X2uNet5ZVuObk6xpYtFO1y7Oiqd5Fzcf%2Fc4z02kIIcYWqCgKciOok9GYvUlskUGXc25Hlo6Ae5pLXmhuWHscdUzTOraLwFDVilW6O%2FNtcA1Bm%2F9jmQlfP7IpIW5d6TDCeFwYr540OBx3zEdFpihaQ3Gc6BgkIc4E0aEvahLlSrX6VEhQXjMA9Gsp6kTU6x7pWmtUof45XarXnifupSpOzQ10%2FLPthxfbd2Id3AMFZIzLDFzCX4nF2HEwlGFCj0zMM88zzZukFP%2BJxxNlSdeiFwCM03m%2FERsT%2B6NRVo7dXpfkbMJADqlGsdeTJ4zv3zywfK7%2BeqQnaVkT8PmmJZs5ERawivsgJLAOp6%2BvQ5Qf2Fg9THQRX0ho02fHsF2thfMAb7THIqKFaCd0qfBO7fYtUK24Wpl%2BC7NLcIgDbRd6XN7ZbBxrZkQgErapdeMPpwNmB77%2B%2Fd7%2F75CVLu%2BNYoi9bS0wU%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=2be25d0824c44194909e13afd673681ad79a3988330b34c820d9696be8c09016",
+    "https://citrination-fe-server-uploads-public-us-west-2.s3-us-west-2.amazonaws.com/b3570db6-335e-4d3f-9891-5001607bba45.jpg?response-content-disposition=attachment%3B%20filename%3D%22semdecost_all152.jpg%22&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAJDS3XAGWRSEFU2RA%2F20180202%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20180202T191113Z&X-Amz-Expires=900&X-Amz-Security-Token=FQoDYXdzEEwaDIvGG%2BYL5%2FVZJAFY5SK3AzzSRl9HOP63HJyhBGPFRxl2GHmRwsmV65YGhAjg5Ic8I9zuMVeEBRAfqfgYU0fDdFd7ygP8NLB09K4sZ7l5ydJEKxpWtKdy5PbyAUjtR3Kub4krJYvtBC6hw7YISMktK89VNl%2FjuDsj265MeBsCOPQkslGZwLYXkrzNhYwwS9dZAMIA4C9eteGe1Kx61JlHpWx58t82qQb19UES4Uxi%2B3WXzPQeBn0lt6fuXfFajzVbAqGqSnc9T3T%2BVBnmxSzXjVzTGG0WjnDVLUErIAdd29j8QPcDTDJqNnaFFfpU2ssx7utGKrNx6I5OhRdpaANHCG9o%2Bi7ZQ5cbqyQVd24Ezk7JXcDMc6Qer%2F4NVgFBM94x%2FmaWhciuIGP7kI4omlG%2Fazl8IneNp6KdvTny8MS16XcB46V9EfCNZxEALVUx7dYkZd6HoAwNEdCO4hnR0t9ynljrp36482E4fmnNtu5hV5en1GaSbm3SSf5AGRyTScRTmNQsPLlLJ8q8MM0PLIkX0hxsxrFF4MOnMKSCl5%2BPagVgRmv16wjxMgzA1%2F%2Bjh2b4OXPJe3vcNXK1wZYHpmor3sgOtb3A7Zwoy%2BzS0wU%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=cfe1954d5cadb436e92bd2a2ba1e55e719f0227263e704bd5609022064da9cb5",
+    "https://citrination-fe-server-uploads-public-us-west-2.s3-us-west-2.amazonaws.com/f25a9471-b0d5-4aec-885b-f37bdefe7a1b.jpg?response-content-disposition=attachment%3B%20filename%3D%22semdecost_all329.jpg%22&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAJHOMTGGWDEBA2QGQ%2F20180202%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20180202T191113Z&X-Amz-Expires=900&X-Amz-Security-Token=FQoDYXdzEEsaDL459Ty8eKTQMp0BCyK3AzDXUyxP2Ldketkg3Lw6s03MKbEOjjMvB8LZXB%2FzC4ficdZxNNxZC1LD8ANrqsImB6WyTQfjen6rMCE%2BYN5bf%2BDB2glE7RcjKqPfR36oj524HrjgukMB7WBjQ8X2uNet5ZVuObk6xpYtFO1y7Oiqd5Fzcf%2Fc4z02kIIcYWqCgKciOok9GYvUlskUGXc25Hlo6Ae5pLXmhuWHscdUzTOraLwFDVilW6O%2FNtcA1Bm%2F9jmQlfP7IpIW5d6TDCeFwYr540OBx3zEdFpihaQ3Gc6BgkIc4E0aEvahLlSrX6VEhQXjMA9Gsp6kTU6x7pWmtUof45XarXnifupSpOzQ10%2FLPthxfbd2Id3AMFZIzLDFzCX4nF2HEwlGFCj0zMM88zzZukFP%2BJxxNlSdeiFwCM03m%2FERsT%2B6NRVo7dXpfkbMJADqlGsdeTJ4zv3zywfK7%2BeqQnaVkT8PmmJZs5ERawivsgJLAOp6%2BvQ5Qf2Fg9THQRX0ho02fHsF2thfMAb7THIqKFaCd0qfBO7fYtUK24Wpl%2BC7NLcIgDbRd6XN7ZbBxrZkQgErapdeMPpwNmB77%2B%2Fd7%2F75CVLu%2BNYoi9bS0wU%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=dbdfc92fd56eb83b30e9fb6e9c8cee3e38791e67e5f2eee0f02b807dc15e7126",
+    "https://citrination-fe-server-uploads-public-us-west-2.s3-us-west-2.amazonaws.com/18001d57-2234-42d5-8a8e-6e473ca76122.jpg?response-content-disposition=attachment%3B%20filename%3D%22semdecost_all222.jpg%22&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAJHOMTGGWDEBA2QGQ%2F20180202%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20180202T191113Z&X-Amz-Expires=900&X-Amz-Security-Token=FQoDYXdzEEsaDL459Ty8eKTQMp0BCyK3AzDXUyxP2Ldketkg3Lw6s03MKbEOjjMvB8LZXB%2FzC4ficdZxNNxZC1LD8ANrqsImB6WyTQfjen6rMCE%2BYN5bf%2BDB2glE7RcjKqPfR36oj524HrjgukMB7WBjQ8X2uNet5ZVuObk6xpYtFO1y7Oiqd5Fzcf%2Fc4z02kIIcYWqCgKciOok9GYvUlskUGXc25Hlo6Ae5pLXmhuWHscdUzTOraLwFDVilW6O%2FNtcA1Bm%2F9jmQlfP7IpIW5d6TDCeFwYr540OBx3zEdFpihaQ3Gc6BgkIc4E0aEvahLlSrX6VEhQXjMA9Gsp6kTU6x7pWmtUof45XarXnifupSpOzQ10%2FLPthxfbd2Id3AMFZIzLDFzCX4nF2HEwlGFCj0zMM88zzZukFP%2BJxxNlSdeiFwCM03m%2FERsT%2B6NRVo7dXpfkbMJADqlGsdeTJ4zv3zywfK7%2BeqQnaVkT8PmmJZs5ERawivsgJLAOp6%2BvQ5Qf2Fg9THQRX0ho02fHsF2thfMAb7THIqKFaCd0qfBO7fYtUK24Wpl%2BC7NLcIgDbRd6XN7ZbBxrZkQgErapdeMPpwNmB77%2B%2Fd7%2F75CVLu%2BNYoi9bS0wU%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=cda416afd4570a7ee031116deffba8e6936ca021e515cb7da208145e0e3e484b",
+    "https://citrination-fe-server-uploads-public-us-west-2.s3-us-west-2.amazonaws.com/782b7000-5ae1-4c41-9603-f5c7c297f7ee.jpg?response-content-disposition=attachment%3B%20filename%3D%22semdecost_all705.jpg%22&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAJDS3XAGWRSEFU2RA%2F20180202%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20180202T191113Z&X-Amz-Expires=900&X-Amz-Security-Token=FQoDYXdzEEwaDIvGG%2BYL5%2FVZJAFY5SK3AzzSRl9HOP63HJyhBGPFRxl2GHmRwsmV65YGhAjg5Ic8I9zuMVeEBRAfqfgYU0fDdFd7ygP8NLB09K4sZ7l5ydJEKxpWtKdy5PbyAUjtR3Kub4krJYvtBC6hw7YISMktK89VNl%2FjuDsj265MeBsCOPQkslGZwLYXkrzNhYwwS9dZAMIA4C9eteGe1Kx61JlHpWx58t82qQb19UES4Uxi%2B3WXzPQeBn0lt6fuXfFajzVbAqGqSnc9T3T%2BVBnmxSzXjVzTGG0WjnDVLUErIAdd29j8QPcDTDJqNnaFFfpU2ssx7utGKrNx6I5OhRdpaANHCG9o%2Bi7ZQ5cbqyQVd24Ezk7JXcDMc6Qer%2F4NVgFBM94x%2FmaWhciuIGP7kI4omlG%2Fazl8IneNp6KdvTny8MS16XcB46V9EfCNZxEALVUx7dYkZd6HoAwNEdCO4hnR0t9ynljrp36482E4fmnNtu5hV5en1GaSbm3SSf5AGRyTScRTmNQsPLlLJ8q8MM0PLIkX0hxsxrFF4MOnMKSCl5%2BPagVgRmv16wjxMgzA1%2F%2Bjh2b4OXPJe3vcNXK1wZYHpmor3sgOtb3A7Zwoy%2BzS0wU%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=3d550ba604da0ac0c097a346961c8b0ddd76cdab1a50d40af0a4be0cdbc4a310",
+    "https://citrination-fe-server-uploads-public-us-west-2.s3-us-west-2.amazonaws.com/e810691f-d6d0-4db4-ada0-c5ee001f406d.jpg?response-content-disposition=attachment%3B%20filename%3D%22semdecost_all416.jpg%22&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAJHOMTGGWDEBA2QGQ%2F20180202%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20180202T191113Z&X-Amz-Expires=900&X-Amz-Security-Token=FQoDYXdzEEsaDL459Ty8eKTQMp0BCyK3AzDXUyxP2Ldketkg3Lw6s03MKbEOjjMvB8LZXB%2FzC4ficdZxNNxZC1LD8ANrqsImB6WyTQfjen6rMCE%2BYN5bf%2BDB2glE7RcjKqPfR36oj524HrjgukMB7WBjQ8X2uNet5ZVuObk6xpYtFO1y7Oiqd5Fzcf%2Fc4z02kIIcYWqCgKciOok9GYvUlskUGXc25Hlo6Ae5pLXmhuWHscdUzTOraLwFDVilW6O%2FNtcA1Bm%2F9jmQlfP7IpIW5d6TDCeFwYr540OBx3zEdFpihaQ3Gc6BgkIc4E0aEvahLlSrX6VEhQXjMA9Gsp6kTU6x7pWmtUof45XarXnifupSpOzQ10%2FLPthxfbd2Id3AMFZIzLDFzCX4nF2HEwlGFCj0zMM88zzZukFP%2BJxxNlSdeiFwCM03m%2FERsT%2B6NRVo7dXpfkbMJADqlGsdeTJ4zv3zywfK7%2BeqQnaVkT8PmmJZs5ERawivsgJLAOp6%2BvQ5Qf2Fg9THQRX0ho02fHsF2thfMAb7THIqKFaCd0qfBO7fYtUK24Wpl%2BC7NLcIgDbRd6XN7ZbBxrZkQgErapdeMPpwNmB77%2B%2Fd7%2F75CVLu%2BNYoi9bS0wU%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=e1652db2efeec169d829df0f34830c7aaf225ed65bfdd246718b10068618a5fa",
+    "https://citrination-fe-server-uploads-public-us-west-2.s3-us-west-2.amazonaws.com/d7ba2afc-e2af-4271-ac63-cbdb0f5e2d7b.jpg?response-content-disposition=attachment%3B%20filename%3D%22semdecost_all480.jpg%22&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAJDS3XAGWRSEFU2RA%2F20180202%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20180202T191113Z&X-Amz-Expires=900&X-Amz-Security-Token=FQoDYXdzEEwaDIvGG%2BYL5%2FVZJAFY5SK3AzzSRl9HOP63HJyhBGPFRxl2GHmRwsmV65YGhAjg5Ic8I9zuMVeEBRAfqfgYU0fDdFd7ygP8NLB09K4sZ7l5ydJEKxpWtKdy5PbyAUjtR3Kub4krJYvtBC6hw7YISMktK89VNl%2FjuDsj265MeBsCOPQkslGZwLYXkrzNhYwwS9dZAMIA4C9eteGe1Kx61JlHpWx58t82qQb19UES4Uxi%2B3WXzPQeBn0lt6fuXfFajzVbAqGqSnc9T3T%2BVBnmxSzXjVzTGG0WjnDVLUErIAdd29j8QPcDTDJqNnaFFfpU2ssx7utGKrNx6I5OhRdpaANHCG9o%2Bi7ZQ5cbqyQVd24Ezk7JXcDMc6Qer%2F4NVgFBM94x%2FmaWhciuIGP7kI4omlG%2Fazl8IneNp6KdvTny8MS16XcB46V9EfCNZxEALVUx7dYkZd6HoAwNEdCO4hnR0t9ynljrp36482E4fmnNtu5hV5en1GaSbm3SSf5AGRyTScRTmNQsPLlLJ8q8MM0PLIkX0hxsxrFF4MOnMKSCl5%2BPagVgRmv16wjxMgzA1%2F%2Bjh2b4OXPJe3vcNXK1wZYHpmor3sgOtb3A7Zwoy%2BzS0wU%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=842f55021b3d7c00504181fe470411cb89c8c735b77e258626f27c51d12f2322",
+    "https://citrination-fe-server-uploads-public-us-west-2.s3-us-west-2.amazonaws.com/7fd76b76-8f39-4ff6-94bf-0a3f469c3425.jpg?response-content-disposition=attachment%3B%20filename%3D%22semdecost_all328.jpg%22&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAJHOMTGGWDEBA2QGQ%2F20180202%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20180202T191113Z&X-Amz-Expires=900&X-Amz-Security-Token=FQoDYXdzEEsaDL459Ty8eKTQMp0BCyK3AzDXUyxP2Ldketkg3Lw6s03MKbEOjjMvB8LZXB%2FzC4ficdZxNNxZC1LD8ANrqsImB6WyTQfjen6rMCE%2BYN5bf%2BDB2glE7RcjKqPfR36oj524HrjgukMB7WBjQ8X2uNet5ZVuObk6xpYtFO1y7Oiqd5Fzcf%2Fc4z02kIIcYWqCgKciOok9GYvUlskUGXc25Hlo6Ae5pLXmhuWHscdUzTOraLwFDVilW6O%2FNtcA1Bm%2F9jmQlfP7IpIW5d6TDCeFwYr540OBx3zEdFpihaQ3Gc6BgkIc4E0aEvahLlSrX6VEhQXjMA9Gsp6kTU6x7pWmtUof45XarXnifupSpOzQ10%2FLPthxfbd2Id3AMFZIzLDFzCX4nF2HEwlGFCj0zMM88zzZukFP%2BJxxNlSdeiFwCM03m%2FERsT%2B6NRVo7dXpfkbMJADqlGsdeTJ4zv3zywfK7%2BeqQnaVkT8PmmJZs5ERawivsgJLAOp6%2BvQ5Qf2Fg9THQRX0ho02fHsF2thfMAb7THIqKFaCd0qfBO7fYtUK24Wpl%2BC7NLcIgDbRd6XN7ZbBxrZkQgErapdeMPpwNmB77%2B%2Fd7%2F75CVLu%2BNYoi9bS0wU%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=b9befb47b5b662d6fce30057648f8552e2fb06f5478ba08f8bc987c25a8a30f8",
+    "https://citrination-fe-server-uploads-public-us-west-2.s3-us-west-2.amazonaws.com/cdb785df-5141-4fce-a66f-28865ec06119.jpg?response-content-disposition=attachment%3B%20filename%3D%22semdecost_all322.jpg%22&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAJDS3XAGWRSEFU2RA%2F20180202%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20180202T191113Z&X-Amz-Expires=900&X-Amz-Security-Token=FQoDYXdzEEwaDIvGG%2BYL5%2FVZJAFY5SK3AzzSRl9HOP63HJyhBGPFRxl2GHmRwsmV65YGhAjg5Ic8I9zuMVeEBRAfqfgYU0fDdFd7ygP8NLB09K4sZ7l5ydJEKxpWtKdy5PbyAUjtR3Kub4krJYvtBC6hw7YISMktK89VNl%2FjuDsj265MeBsCOPQkslGZwLYXkrzNhYwwS9dZAMIA4C9eteGe1Kx61JlHpWx58t82qQb19UES4Uxi%2B3WXzPQeBn0lt6fuXfFajzVbAqGqSnc9T3T%2BVBnmxSzXjVzTGG0WjnDVLUErIAdd29j8QPcDTDJqNnaFFfpU2ssx7utGKrNx6I5OhRdpaANHCG9o%2Bi7ZQ5cbqyQVd24Ezk7JXcDMc6Qer%2F4NVgFBM94x%2FmaWhciuIGP7kI4omlG%2Fazl8IneNp6KdvTny8MS16XcB46V9EfCNZxEALVUx7dYkZd6HoAwNEdCO4hnR0t9ynljrp36482E4fmnNtu5hV5en1GaSbm3SSf5AGRyTScRTmNQsPLlLJ8q8MM0PLIkX0hxsxrFF4MOnMKSCl5%2BPagVgRmv16wjxMgzA1%2F%2Bjh2b4OXPJe3vcNXK1wZYHpmor3sgOtb3A7Zwoy%2BzS0wU%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=bb76e60f4699d5560f1b93ac93f22266eefddf99912637b56a70f8797b52a630",
+    "https://citrination-fe-server-uploads-public-us-west-2.s3-us-west-2.amazonaws.com/101cb03e-e536-4a88-8539-776ef35acf12.jpg?response-content-disposition=attachment%3B%20filename%3D%22semdecost_all600.jpg%22&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAJHOMTGGWDEBA2QGQ%2F20180202%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20180202T191112Z&X-Amz-Expires=900&X-Amz-Security-Token=FQoDYXdzEEsaDL459Ty8eKTQMp0BCyK3AzDXUyxP2Ldketkg3Lw6s03MKbEOjjMvB8LZXB%2FzC4ficdZxNNxZC1LD8ANrqsImB6WyTQfjen6rMCE%2BYN5bf%2BDB2glE7RcjKqPfR36oj524HrjgukMB7WBjQ8X2uNet5ZVuObk6xpYtFO1y7Oiqd5Fzcf%2Fc4z02kIIcYWqCgKciOok9GYvUlskUGXc25Hlo6Ae5pLXmhuWHscdUzTOraLwFDVilW6O%2FNtcA1Bm%2F9jmQlfP7IpIW5d6TDCeFwYr540OBx3zEdFpihaQ3Gc6BgkIc4E0aEvahLlSrX6VEhQXjMA9Gsp6kTU6x7pWmtUof45XarXnifupSpOzQ10%2FLPthxfbd2Id3AMFZIzLDFzCX4nF2HEwlGFCj0zMM88zzZukFP%2BJxxNlSdeiFwCM03m%2FERsT%2B6NRVo7dXpfkbMJADqlGsdeTJ4zv3zywfK7%2BeqQnaVkT8PmmJZs5ERawivsgJLAOp6%2BvQ5Qf2Fg9THQRX0ho02fHsF2thfMAb7THIqKFaCd0qfBO7fYtUK24Wpl%2BC7NLcIgDbRd6XN7ZbBxrZkQgErapdeMPpwNmB77%2B%2Fd7%2F75CVLu%2BNYoi9bS0wU%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=185b7cf960197df2b281e9c9fef4c1b4d25c61580de20ba56c27db0154b51e97",
+    "https://citrination-fe-server-uploads-public-us-west-2.s3-us-west-2.amazonaws.com/63ac6c50-9cad-4ac2-b63c-1ae31a6e7f2f.jpg?response-content-disposition=attachment%3B%20filename%3D%22semdecost_all153.jpg%22&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAJDS3XAGWRSEFU2RA%2F20180202%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20180202T191113Z&X-Amz-Expires=900&X-Amz-Security-Token=FQoDYXdzEEwaDIvGG%2BYL5%2FVZJAFY5SK3AzzSRl9HOP63HJyhBGPFRxl2GHmRwsmV65YGhAjg5Ic8I9zuMVeEBRAfqfgYU0fDdFd7ygP8NLB09K4sZ7l5ydJEKxpWtKdy5PbyAUjtR3Kub4krJYvtBC6hw7YISMktK89VNl%2FjuDsj265MeBsCOPQkslGZwLYXkrzNhYwwS9dZAMIA4C9eteGe1Kx61JlHpWx58t82qQb19UES4Uxi%2B3WXzPQeBn0lt6fuXfFajzVbAqGqSnc9T3T%2BVBnmxSzXjVzTGG0WjnDVLUErIAdd29j8QPcDTDJqNnaFFfpU2ssx7utGKrNx6I5OhRdpaANHCG9o%2Bi7ZQ5cbqyQVd24Ezk7JXcDMc6Qer%2F4NVgFBM94x%2FmaWhciuIGP7kI4omlG%2Fazl8IneNp6KdvTny8MS16XcB46V9EfCNZxEALVUx7dYkZd6HoAwNEdCO4hnR0t9ynljrp36482E4fmnNtu5hV5en1GaSbm3SSf5AGRyTScRTmNQsPLlLJ8q8MM0PLIkX0hxsxrFF4MOnMKSCl5%2BPagVgRmv16wjxMgzA1%2F%2Bjh2b4OXPJe3vcNXK1wZYHpmor3sgOtb3A7Zwoy%2BzS0wU%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=7c9351e625304eba9faff21d60f7c3db1cae3acc5a7415781f1fca90d0645af7",
+    "https://citrination-fe-server-uploads-public-us-west-2.s3-us-west-2.amazonaws.com/011b536b-08eb-4b17-ac59-d1115e368142.jpg?response-content-disposition=attachment%3B%20filename%3D%22semdecost_all675.jpg%22&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAJDS3XAGWRSEFU2RA%2F20180202%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20180202T191113Z&X-Amz-Expires=900&X-Amz-Security-Token=FQoDYXdzEEwaDIvGG%2BYL5%2FVZJAFY5SK3AzzSRl9HOP63HJyhBGPFRxl2GHmRwsmV65YGhAjg5Ic8I9zuMVeEBRAfqfgYU0fDdFd7ygP8NLB09K4sZ7l5ydJEKxpWtKdy5PbyAUjtR3Kub4krJYvtBC6hw7YISMktK89VNl%2FjuDsj265MeBsCOPQkslGZwLYXkrzNhYwwS9dZAMIA4C9eteGe1Kx61JlHpWx58t82qQb19UES4Uxi%2B3WXzPQeBn0lt6fuXfFajzVbAqGqSnc9T3T%2BVBnmxSzXjVzTGG0WjnDVLUErIAdd29j8QPcDTDJqNnaFFfpU2ssx7utGKrNx6I5OhRdpaANHCG9o%2Bi7ZQ5cbqyQVd24Ezk7JXcDMc6Qer%2F4NVgFBM94x%2FmaWhciuIGP7kI4omlG%2Fazl8IneNp6KdvTny8MS16XcB46V9EfCNZxEALVUx7dYkZd6HoAwNEdCO4hnR0t9ynljrp36482E4fmnNtu5hV5en1GaSbm3SSf5AGRyTScRTmNQsPLlLJ8q8MM0PLIkX0hxsxrFF4MOnMKSCl5%2BPagVgRmv16wjxMgzA1%2F%2Bjh2b4OXPJe3vcNXK1wZYHpmor3sgOtb3A7Zwoy%2BzS0wU%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=2981efba5f2919618cbee54db41b8f4a27a4688185feeb90dbf7930f3757d6b5",
+    "https://citrination-fe-server-uploads-public-us-west-2.s3-us-west-2.amazonaws.com/ecdacecc-5440-48c8-9359-9b8376d93f92.jpg?response-content-disposition=attachment%3B%20filename%3D%22semdecost_all579.jpg%22&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAJDS3XAGWRSEFU2RA%2F20180202%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20180202T191113Z&X-Amz-Expires=900&X-Amz-Security-Token=FQoDYXdzEEwaDIvGG%2BYL5%2FVZJAFY5SK3AzzSRl9HOP63HJyhBGPFRxl2GHmRwsmV65YGhAjg5Ic8I9zuMVeEBRAfqfgYU0fDdFd7ygP8NLB09K4sZ7l5ydJEKxpWtKdy5PbyAUjtR3Kub4krJYvtBC6hw7YISMktK89VNl%2FjuDsj265MeBsCOPQkslGZwLYXkrzNhYwwS9dZAMIA4C9eteGe1Kx61JlHpWx58t82qQb19UES4Uxi%2B3WXzPQeBn0lt6fuXfFajzVbAqGqSnc9T3T%2BVBnmxSzXjVzTGG0WjnDVLUErIAdd29j8QPcDTDJqNnaFFfpU2ssx7utGKrNx6I5OhRdpaANHCG9o%2Bi7ZQ5cbqyQVd24Ezk7JXcDMc6Qer%2F4NVgFBM94x%2FmaWhciuIGP7kI4omlG%2Fazl8IneNp6KdvTny8MS16XcB46V9EfCNZxEALVUx7dYkZd6HoAwNEdCO4hnR0t9ynljrp36482E4fmnNtu5hV5en1GaSbm3SSf5AGRyTScRTmNQsPLlLJ8q8MM0PLIkX0hxsxrFF4MOnMKSCl5%2BPagVgRmv16wjxMgzA1%2F%2Bjh2b4OXPJe3vcNXK1wZYHpmor3sgOtb3A7Zwoy%2BzS0wU%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=595aa5de2a029b3d20bcc2f0fedb99e19d838b9fc594ac7eaad5ed882d1828d4",
+    "https://citrination-fe-server-uploads-public-us-west-2.s3-us-west-2.amazonaws.com/766cce79-6059-4afc-a7be-67f9b56256f2.jpg?response-content-disposition=attachment%3B%20filename%3D%22semdecost_all467.jpg%22&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAJHOMTGGWDEBA2QGQ%2F20180202%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20180202T191113Z&X-Amz-Expires=900&X-Amz-Security-Token=FQoDYXdzEEsaDL459Ty8eKTQMp0BCyK3AzDXUyxP2Ldketkg3Lw6s03MKbEOjjMvB8LZXB%2FzC4ficdZxNNxZC1LD8ANrqsImB6WyTQfjen6rMCE%2BYN5bf%2BDB2glE7RcjKqPfR36oj524HrjgukMB7WBjQ8X2uNet5ZVuObk6xpYtFO1y7Oiqd5Fzcf%2Fc4z02kIIcYWqCgKciOok9GYvUlskUGXc25Hlo6Ae5pLXmhuWHscdUzTOraLwFDVilW6O%2FNtcA1Bm%2F9jmQlfP7IpIW5d6TDCeFwYr540OBx3zEdFpihaQ3Gc6BgkIc4E0aEvahLlSrX6VEhQXjMA9Gsp6kTU6x7pWmtUof45XarXnifupSpOzQ10%2FLPthxfbd2Id3AMFZIzLDFzCX4nF2HEwlGFCj0zMM88zzZukFP%2BJxxNlSdeiFwCM03m%2FERsT%2B6NRVo7dXpfkbMJADqlGsdeTJ4zv3zywfK7%2BeqQnaVkT8PmmJZs5ERawivsgJLAOp6%2BvQ5Qf2Fg9THQRX0ho02fHsF2thfMAb7THIqKFaCd0qfBO7fYtUK24Wpl%2BC7NLcIgDbRd6XN7ZbBxrZkQgErapdeMPpwNmB77%2B%2Fd7%2F75CVLu%2BNYoi9bS0wU%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=c12620398c4c608842c33af5a48e240a7a87ca6212836fd1a8618d971ebe2f0d",
+    "https://citrination-fe-server-uploads-public-us-west-2.s3-us-west-2.amazonaws.com/364a9214-93e6-4790-ba01-f8b8b38d12a5.jpg?response-content-disposition=attachment%3B%20filename%3D%22semdecost_all174.jpg%22&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAJHOMTGGWDEBA2QGQ%2F20180202%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20180202T191113Z&X-Amz-Expires=900&X-Amz-Security-Token=FQoDYXdzEEsaDL459Ty8eKTQMp0BCyK3AzDXUyxP2Ldketkg3Lw6s03MKbEOjjMvB8LZXB%2FzC4ficdZxNNxZC1LD8ANrqsImB6WyTQfjen6rMCE%2BYN5bf%2BDB2glE7RcjKqPfR36oj524HrjgukMB7WBjQ8X2uNet5ZVuObk6xpYtFO1y7Oiqd5Fzcf%2Fc4z02kIIcYWqCgKciOok9GYvUlskUGXc25Hlo6Ae5pLXmhuWHscdUzTOraLwFDVilW6O%2FNtcA1Bm%2F9jmQlfP7IpIW5d6TDCeFwYr540OBx3zEdFpihaQ3Gc6BgkIc4E0aEvahLlSrX6VEhQXjMA9Gsp6kTU6x7pWmtUof45XarXnifupSpOzQ10%2FLPthxfbd2Id3AMFZIzLDFzCX4nF2HEwlGFCj0zMM88zzZukFP%2BJxxNlSdeiFwCM03m%2FERsT%2B6NRVo7dXpfkbMJADqlGsdeTJ4zv3zywfK7%2BeqQnaVkT8PmmJZs5ERawivsgJLAOp6%2BvQ5Qf2Fg9THQRX0ho02fHsF2thfMAb7THIqKFaCd0qfBO7fYtUK24Wpl%2BC7NLcIgDbRd6XN7ZbBxrZkQgErapdeMPpwNmB77%2B%2Fd7%2F75CVLu%2BNYoi9bS0wU%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=1d4489dca9ccfa56ef21c9286c7051cb1b502c6f84c13f7a6d2ae2ae56cc9f92",
+    "https://citrination-fe-server-uploads-public-us-west-2.s3-us-west-2.amazonaws.com/388ff87e-2e04-4f18-9e2f-ff04ff19cebd.jpg?response-content-disposition=attachment%3B%20filename%3D%22semdecost_all298.jpg%22&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAJHOMTGGWDEBA2QGQ%2F20180202%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20180202T191113Z&X-Amz-Expires=900&X-Amz-Security-Token=FQoDYXdzEEsaDL459Ty8eKTQMp0BCyK3AzDXUyxP2Ldketkg3Lw6s03MKbEOjjMvB8LZXB%2FzC4ficdZxNNxZC1LD8ANrqsImB6WyTQfjen6rMCE%2BYN5bf%2BDB2glE7RcjKqPfR36oj524HrjgukMB7WBjQ8X2uNet5ZVuObk6xpYtFO1y7Oiqd5Fzcf%2Fc4z02kIIcYWqCgKciOok9GYvUlskUGXc25Hlo6Ae5pLXmhuWHscdUzTOraLwFDVilW6O%2FNtcA1Bm%2F9jmQlfP7IpIW5d6TDCeFwYr540OBx3zEdFpihaQ3Gc6BgkIc4E0aEvahLlSrX6VEhQXjMA9Gsp6kTU6x7pWmtUof45XarXnifupSpOzQ10%2FLPthxfbd2Id3AMFZIzLDFzCX4nF2HEwlGFCj0zMM88zzZukFP%2BJxxNlSdeiFwCM03m%2FERsT%2B6NRVo7dXpfkbMJADqlGsdeTJ4zv3zywfK7%2BeqQnaVkT8PmmJZs5ERawivsgJLAOp6%2BvQ5Qf2Fg9THQRX0ho02fHsF2thfMAb7THIqKFaCd0qfBO7fYtUK24Wpl%2BC7NLcIgDbRd6XN7ZbBxrZkQgErapdeMPpwNmB77%2B%2Fd7%2F75CVLu%2BNYoi9bS0wU%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=07753730b405d78f9a20f34fef4f0525ecf692ad736b308cca1d2b1954efc17a",
+    "https://citrination-fe-server-uploads-public-us-west-2.s3-us-west-2.amazonaws.com/0b04ba49-50ef-4270-9ac3-85b5729f53d2.jpg?response-content-disposition=attachment%3B%20filename%3D%22semdecost_all398.jpg%22&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAJDS3XAGWRSEFU2RA%2F20180202%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20180202T191113Z&X-Amz-Expires=900&X-Amz-Security-Token=FQoDYXdzEEwaDIvGG%2BYL5%2FVZJAFY5SK3AzzSRl9HOP63HJyhBGPFRxl2GHmRwsmV65YGhAjg5Ic8I9zuMVeEBRAfqfgYU0fDdFd7ygP8NLB09K4sZ7l5ydJEKxpWtKdy5PbyAUjtR3Kub4krJYvtBC6hw7YISMktK89VNl%2FjuDsj265MeBsCOPQkslGZwLYXkrzNhYwwS9dZAMIA4C9eteGe1Kx61JlHpWx58t82qQb19UES4Uxi%2B3WXzPQeBn0lt6fuXfFajzVbAqGqSnc9T3T%2BVBnmxSzXjVzTGG0WjnDVLUErIAdd29j8QPcDTDJqNnaFFfpU2ssx7utGKrNx6I5OhRdpaANHCG9o%2Bi7ZQ5cbqyQVd24Ezk7JXcDMc6Qer%2F4NVgFBM94x%2FmaWhciuIGP7kI4omlG%2Fazl8IneNp6KdvTny8MS16XcB46V9EfCNZxEALVUx7dYkZd6HoAwNEdCO4hnR0t9ynljrp36482E4fmnNtu5hV5en1GaSbm3SSf5AGRyTScRTmNQsPLlLJ8q8MM0PLIkX0hxsxrFF4MOnMKSCl5%2BPagVgRmv16wjxMgzA1%2F%2Bjh2b4OXPJe3vcNXK1wZYHpmor3sgOtb3A7Zwoy%2BzS0wU%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=0dc076030ec168549bf620a0280baae63d3391043f27959160d7999c009692f3",
+    "https://citrination-fe-server-uploads-public-us-west-2.s3-us-west-2.amazonaws.com/f4085c3d-06c9-4e2f-b3b6-95a07fe30d65.jpg?response-content-disposition=attachment%3B%20filename%3D%22semdecost_all132.jpg%22&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAJDS3XAGWRSEFU2RA%2F20180202%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20180202T191113Z&X-Amz-Expires=900&X-Amz-Security-Token=FQoDYXdzEEwaDIvGG%2BYL5%2FVZJAFY5SK3AzzSRl9HOP63HJyhBGPFRxl2GHmRwsmV65YGhAjg5Ic8I9zuMVeEBRAfqfgYU0fDdFd7ygP8NLB09K4sZ7l5ydJEKxpWtKdy5PbyAUjtR3Kub4krJYvtBC6hw7YISMktK89VNl%2FjuDsj265MeBsCOPQkslGZwLYXkrzNhYwwS9dZAMIA4C9eteGe1Kx61JlHpWx58t82qQb19UES4Uxi%2B3WXzPQeBn0lt6fuXfFajzVbAqGqSnc9T3T%2BVBnmxSzXjVzTGG0WjnDVLUErIAdd29j8QPcDTDJqNnaFFfpU2ssx7utGKrNx6I5OhRdpaANHCG9o%2Bi7ZQ5cbqyQVd24Ezk7JXcDMc6Qer%2F4NVgFBM94x%2FmaWhciuIGP7kI4omlG%2Fazl8IneNp6KdvTny8MS16XcB46V9EfCNZxEALVUx7dYkZd6HoAwNEdCO4hnR0t9ynljrp36482E4fmnNtu5hV5en1GaSbm3SSf5AGRyTScRTmNQsPLlLJ8q8MM0PLIkX0hxsxrFF4MOnMKSCl5%2BPagVgRmv16wjxMgzA1%2F%2Bjh2b4OXPJe3vcNXK1wZYHpmor3sgOtb3A7Zwoy%2BzS0wU%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=1e8c482251016abc95b16d0e952f98f46a4926c9bd9a36bd41a57a6debc7f756",
+    "https://citrination-fe-server-uploads-public-us-west-2.s3-us-west-2.amazonaws.com/fb6aaa15-7c13-414a-a430-b3650739069d.jpg?response-content-disposition=attachment%3B%20filename%3D%22semdecost_all184.jpg%22&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAJHOMTGGWDEBA2QGQ%2F20180202%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20180202T191113Z&X-Amz-Expires=900&X-Amz-Security-Token=FQoDYXdzEEsaDL459Ty8eKTQMp0BCyK3AzDXUyxP2Ldketkg3Lw6s03MKbEOjjMvB8LZXB%2FzC4ficdZxNNxZC1LD8ANrqsImB6WyTQfjen6rMCE%2BYN5bf%2BDB2glE7RcjKqPfR36oj524HrjgukMB7WBjQ8X2uNet5ZVuObk6xpYtFO1y7Oiqd5Fzcf%2Fc4z02kIIcYWqCgKciOok9GYvUlskUGXc25Hlo6Ae5pLXmhuWHscdUzTOraLwFDVilW6O%2FNtcA1Bm%2F9jmQlfP7IpIW5d6TDCeFwYr540OBx3zEdFpihaQ3Gc6BgkIc4E0aEvahLlSrX6VEhQXjMA9Gsp6kTU6x7pWmtUof45XarXnifupSpOzQ10%2FLPthxfbd2Id3AMFZIzLDFzCX4nF2HEwlGFCj0zMM88zzZukFP%2BJxxNlSdeiFwCM03m%2FERsT%2B6NRVo7dXpfkbMJADqlGsdeTJ4zv3zywfK7%2BeqQnaVkT8PmmJZs5ERawivsgJLAOp6%2BvQ5Qf2Fg9THQRX0ho02fHsF2thfMAb7THIqKFaCd0qfBO7fYtUK24Wpl%2BC7NLcIgDbRd6XN7ZbBxrZkQgErapdeMPpwNmB77%2B%2Fd7%2F75CVLu%2BNYoi9bS0wU%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=ba62d6f8e531f887bf371d715480ab2c42f1119f0d35685b6645b5f0fbbd87a0"
+  ]
+}

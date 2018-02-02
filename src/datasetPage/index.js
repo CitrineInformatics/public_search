@@ -7,6 +7,7 @@ async function main(datasetId) {
     const datasetInternalsResults = await datasetInternals(datasetId);
     const recordsResults = await records(datasetId, datasetInternalsResults.data.properties);
     const data = {
+      datasetDetails: datasetInternalsResults.data.datasetDetails,
       recordCount: recordsResults.data.recordCount,
       commonMaterials: datasetInternalsResults.data.commonMaterials.slice(3),
       mostCitedReferences: datasetInternalsResults.data.dois,
