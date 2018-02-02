@@ -14,6 +14,7 @@ async function main(datasetId) {
         rows: recordsResults.data.rows,
         columns: recordsResults.data.columns,
       },
+      s3ImageUrls: recordsResults.data.s3ImageUrls,
     };
     return new Result({
       status: 'success',

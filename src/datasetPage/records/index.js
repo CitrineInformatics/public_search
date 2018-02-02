@@ -2,6 +2,7 @@ import buildQuery from './query';
 import { pifSearch } from 'client';
 import Result from 'models/result';
 import processResults from './extract';
+import { extractImagePaths } from 'utility';
 
 async function main(datasetId, properties) {
   try {
@@ -11,7 +12,10 @@ async function main(datasetId, properties) {
     return new Result({
       status: 'success',
       message: 'Successfully made 2 queries to Citrination and structured response',
-      data: processResults(queryResponse, properties),
+      data: {
+        ...processResults(queryResponse, properties),
+        s3ImageUrls: await extractImagePaths(queryResponse),
+      },
     });
   } catch (e) {
     console.log(e);
