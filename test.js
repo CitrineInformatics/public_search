@@ -12,6 +12,11 @@ publicSearch.getResultsPageData([{
 });
 
 
-publicSearch.getMaterialPageData('SiO2').then((res) => {
+publicSearch.getMaterialPageData('Fe.98C.02').then((res) => {
   fs.writeFileSync('tmp/material.complete.response.json', JSON.stringify(res.data));
+});
+
+
+publicSearch.getDatasetPageData(152980).then((res) => {
+  fs.writeFileSync('tmp/dataset.complete.response.json', JSON.stringify(res.data));
 });
