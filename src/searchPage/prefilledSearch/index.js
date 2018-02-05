@@ -20,8 +20,12 @@ function main() {
         if (err) {
           reject(new Error(err));
         } else {
-          searchHash = JSON.parse(hash);
-          resolve(searchHash);
+          try {
+            searchHash = JSON.parse(hash);
+            resolve(searchHash);
+          } catch (e) {
+            reject(new Error(e))
+          }
         }
       })
     }
