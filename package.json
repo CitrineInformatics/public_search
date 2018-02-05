@@ -18,7 +18,8 @@
   "dependencies": {
     "babel-runtime": "^6.26.0",
     "promise": "^8.0.1",
-    "request": "^2.83.0"
+    "request": "^2.83.0",
+    "trie-search": "^1.0.9"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
@@ -40,7 +41,8 @@
   },
   "jest": {
     "testPathIgnorePatterns": [
-      "dist/"
+      "dist/",
+      "./test.js"
     ]
   }
 }
