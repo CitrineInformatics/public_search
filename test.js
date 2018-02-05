@@ -21,3 +21,8 @@ publicSearch.getMaterialPageData('Fe.98C.02').then((res) => {
 publicSearch.getDatasetPageData(152980).then((res) => {
   fs.writeFileSync('tmp/dataset.complete.response.json', JSON.stringify(res.data));
 });
+
+// Sample Request for data that will return prefill search
+publicSearch.getSearchPageData('[Original] σ·T').then((res) => {
+  fs.writeFileSync('tmp/search.complete.response.json', JSON.stringify(res.data))
+})
