@@ -1,0 +1,19 @@
+[
+  {
+    "name": "Solution Treatment",
+    "details": [
+      {
+        "name": "Temperature",
+        "value": "1323 K"
+      },
+      {
+        "name": "Time",
+        "value": "4800 s"
+      },
+      {
+        "name": "Quench",
+        "value": "Water quenched after solution treatment"
+      }
+    ]
+  }
+]

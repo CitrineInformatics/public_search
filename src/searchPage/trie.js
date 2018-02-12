@@ -1,5 +1,5 @@
 import Trie from 'trie-search';
-const prefill = require('./prefill.json');
+import prefill from './prefill.json';
 
 const trie = new Trie([], {
   min: 1, // Minimum length of a key to

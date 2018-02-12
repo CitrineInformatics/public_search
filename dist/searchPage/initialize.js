@@ -31,21 +31,19 @@ var main = function () {
           case 6:
             propertiesPrefill = _context.sent;
             finalPrefill = Object.assign(propertiesPrefill, chemicalPrefill);
-
-            fs.writeFileSync('tmp/constants', JSON.stringify(finalPrefill));
             return _context.abrupt('return', finalPrefill);
 
-          case 12:
-            _context.prev = 12;
+          case 11:
+            _context.prev = 11;
             _context.t0 = _context['catch'](0);
             throw _context.t0;
 
-          case 15:
+          case 14:
           case 'end':
             return _context.stop();
         }
       }
-    }, _callee, this, [[0, 12]]);
+    }, _callee, this, [[0, 11]]);
   }));
 
   return function main() {
@@ -62,7 +60,5 @@ var _propertiesHash = require('./propertiesHash');
 var _propertiesHash2 = _interopRequireDefault(_propertiesHash);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var fs = require('fs');
 
 exports.default = main;
