@@ -1,3 +1,4 @@
+import "babel-polyfill"
 import getDatasetPageData from './datasetPage';
 import getMaterialPageData from './materialPage';
 import { firstPageResults, suggestedInput } from './resultsPage';

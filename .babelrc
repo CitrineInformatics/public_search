@@ -1,5 +1,10 @@
 {
-  "presets": [ "es2015", "stage-0" ],
+  "presets": [ ["env", {
+    "useBuiltIns": true,
+    "targets": {
+      "browsers": "Explorer 11"
+    }
+  }], "stage-0" ],
   "plugins": [
     ["transform-runtime", {
       "polyfill": false,
