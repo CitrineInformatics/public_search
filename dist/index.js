@@ -1,5 +1,7 @@
 'use strict';
 
+require('core-js/fn/array/find');
+
 var _datasetPage = require('./datasetPage');
 
 var _datasetPage2 = _interopRequireDefault(_datasetPage);

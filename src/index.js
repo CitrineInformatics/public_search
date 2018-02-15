@@ -1,3 +1,4 @@
+import 'core-js/fn/array/find'
 import getDatasetPageData from './datasetPage';
 import getMaterialPageData from './materialPage';
 import { firstPageResults, suggestedInput } from './resultsPage';
