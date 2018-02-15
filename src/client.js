@@ -3,7 +3,7 @@ import request from 'request';
 
 const apiKey = '6ju1N2n4zLRqzZrNEo1xSQtt';
 const headers = {
-  'x-api-key': encodeURI(apiKey),
+  'X-Api-Key': encodeURI(apiKey),
   'Content-Type': 'application/json',
   'X-Citrination-API-Version': '1.0.0',
 };
