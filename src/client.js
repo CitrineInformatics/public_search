@@ -1,7 +1,8 @@
 import Promise from 'promise';
 import request from 'request';
 
-const apiKey = '6ju1N2n4zLRqzZrNEo1xSQtt';
+const apiKey = '6ju1N2n4zLRqzZrNEo1xSQtt'; // prod
+
 const headers = {
   'X-Api-Key': encodeURI(apiKey),
   'Content-Type': 'application/json',

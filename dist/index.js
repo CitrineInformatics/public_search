@@ -8,8 +8,6 @@ var _datasetPage2 = _interopRequireDefault(_datasetPage);
 
 var _materialPage = require('./materialPage');
 
-var _materialPage2 = _interopRequireDefault(_materialPage);
-
 var _resultsPage = require('./resultsPage');
 
 var _searchPage = require('./searchPage');
@@ -24,7 +22,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 module.exports = {
   getDatasetPageData: _datasetPage2.default,
-  getMaterialPageData: _materialPage2.default,
+  getMaterialPageData: _materialPage.showMaterialPage,
   getResultsPageData: _resultsPage.firstPageResults,
   suggestedResultsQueries: [_resultsPage.suggestedInput],
   input: {
@@ -36,5 +34,8 @@ module.exports = {
   searchPage: {
     lookupTrie: _searchPage.lookupTrie,
     resetPrefillMap: _searchPage.resetPrefillMap
+  },
+  materialsPage: {
+    propertyTableMap: _materialPage.propertyTableMap
   }
 };

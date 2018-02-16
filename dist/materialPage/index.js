@@ -3,6 +3,7 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
+exports.propertyTableMap = exports.showMaterialPage = undefined;
 
 var _regenerator = require('babel-runtime/regenerator');
 
@@ -58,4 +59,7 @@ var _datasetStatistics2 = _interopRequireDefault(_datasetStatistics);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-exports.default = showMaterialPage;
+var propertyTableMap = require('./constants/propertyTableMap.json');
+
+exports.showMaterialPage = showMaterialPage;
+exports.propertyTableMap = propertyTableMap;

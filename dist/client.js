@@ -15,7 +15,8 @@ var _request2 = _interopRequireDefault(_request);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var apiKey = '6ju1N2n4zLRqzZrNEo1xSQtt';
+var apiKey = '6ju1N2n4zLRqzZrNEo1xSQtt'; // prod
+
 var headers = {
   'X-Api-Key': encodeURI(apiKey),
   'Content-Type': 'application/json',

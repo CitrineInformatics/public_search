@@ -1,13 +1,13 @@
-import 'core-js/fn/array/find'
+import 'core-js/fn/array/find';
 import getDatasetPageData from './datasetPage';
-import getMaterialPageData from './materialPage';
+import { showMaterialPage, propertyTableMap } from './materialPage';
 import { firstPageResults, suggestedInput } from './resultsPage';
 import { lookupTrie, resetPrefillMap } from './searchPage';
 import * as input from 'models/input';
 
 module.exports = {
   getDatasetPageData,
-  getMaterialPageData,
+  getMaterialPageData: showMaterialPage,
   getResultsPageData: firstPageResults,
   suggestedResultsQueries: [suggestedInput],
   input: {
@@ -19,5 +19,8 @@ module.exports = {
   searchPage: {
     lookupTrie,
     resetPrefillMap,
+  },
+  materialsPage: {
+    propertyTableMap,
   },
 };
