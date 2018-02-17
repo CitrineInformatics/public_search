@@ -5,7 +5,7 @@
     "build": "./node_modules/.bin/babel  ./src --experimental --source-maps-inline -d ./dist --copy-files"
   },
   "name": "citrine-public-search",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "Simple Interface for Making Requests to Public Citrination and flattening responses",
   "contributors": [
     {
