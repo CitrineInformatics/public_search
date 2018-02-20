@@ -69,7 +69,7 @@ export default function (formula) {
             ],
             properties: [
               {
-                logic: 'SHOULD',
+                logic: 'OPTIONAL',
                 file: [
                   {
                     relativePath: [

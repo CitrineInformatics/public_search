@@ -46,7 +46,7 @@ exports.default = function (formula) {
           }]
         }],
         properties: [{
-          logic: 'SHOULD',
+          logic: 'OPTIONAL',
           file: [{
             relativePath: [{
               extractAs: 'image'
@@ -102,5 +102,6 @@ exports.default = function (formula) {
     returnSystem: false,
     returnExtractedPath: false
   };
+
   return query;
 };
