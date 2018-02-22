@@ -14,32 +14,27 @@ var _asyncToGenerator3 = _interopRequireDefault(_asyncToGenerator2);
 
 var main = function () {
   var _ref = (0, _asyncToGenerator3.default)( /*#__PURE__*/_regenerator2.default.mark(function _callee(formula) {
-    var query, res, fs, queryResponse;
+    var res, queryResponse;
     return _regenerator2.default.wrap(function _callee$(_context) {
       while (1) {
         switch (_context.prev = _context.next) {
           case 0:
             _context.prev = 0;
-            query = (0, _query2.default)(formula);
-            _context.next = 4;
-            return (0, _client.pifSearch)(query);
+            _context.next = 3;
+            return (0, _client.pifSearch)((0, _query2.default)(formula));
 
-          case 4:
+          case 3:
             res = _context.sent;
-            fs = require('fs');
             queryResponse = JSON.parse(res.body);
-
-            fs.writeFileSync('tmp/garh', JSON.stringify(query));
-            fs.writeFileSync('tmp/garg', JSON.stringify(queryResponse));
             _context.t0 = _result2.default;
             _context.t1 = extract.properties(queryResponse);
             _context.t2 = extract.processDefinitions(queryResponse);
             _context.t3 = extract.composition(queryResponse);
             _context.t4 = extract.doi(queryResponse);
-            _context.next = 16;
+            _context.next = 12;
             return (0, _utility.extractImagePaths)(queryResponse);
 
-          case 16:
+          case 12:
             _context.t5 = _context.sent;
             _context.t6 = {
               properties: _context.t1,
@@ -55,8 +50,8 @@ var main = function () {
             };
             return _context.abrupt('return', new _context.t0(_context.t7));
 
-          case 22:
-            _context.prev = 22;
+          case 18:
+            _context.prev = 18;
             _context.t8 = _context['catch'](0);
             return _context.abrupt('return', new _result2.default({
               status: 'error',
@@ -64,12 +59,12 @@ var main = function () {
               error: _context.t8
             }));
 
-          case 25:
+          case 21:
           case 'end':
             return _context.stop();
         }
       }
-    }, _callee, this, [[0, 22]]);
+    }, _callee, this, [[0, 18]]);
   }));
 
   return function main(_x) {
