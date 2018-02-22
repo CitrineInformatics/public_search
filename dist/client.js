@@ -24,6 +24,10 @@ var headers = {
 };
 var site = 'https://citrination.com';
 
+function isValidResponse(response) {
+  return response && response.statusCode === 200;
+}
+
 function pifSearch(query) {
   return new _promise2.default(function (resolve, reject) {
     _request2.default.post({
@@ -31,7 +35,7 @@ function pifSearch(query) {
       url: site + '/api/search/pif_search',
       body: JSON.stringify(query)
     }, function (error, response, body) {
-      if (response.statusCode === 200) {
+      if (isValidResponse(response)) {
         resolve({ body: body });
       } else {
         reject(new Error(error));
@@ -47,7 +51,7 @@ function datasetSearch(query) {
       url: site + '/api/search/dataset',
       body: JSON.stringify(query)
     }, function (error, response, body) {
-      if (response.statusCode === 200) {
+      if (isValidResponse(response)) {
         resolve({ body: body });
       } else {
         reject(new Error(error));
@@ -68,7 +72,7 @@ function imagePresignedUrls(imagePaths) {
     var url = site + '/api/datasets/' + imagePath.set + '/version/' + imagePath.version + '/url/' + imagePath.path;
     return new _promise2.default(function (resolve, reject) {
       _request2.default.get({ headers: headers, url: url }, function (error, response, body) {
-        if (response.statusCode === 200) {
+        if (isValidResponse(response)) {
           resolve({ body: body });
         } else {
           reject(new Error('Oops'));
