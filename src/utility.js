@@ -4,7 +4,7 @@ function processPropertyValue(unitAnalysis, units) {
   let returnString = '';
   if (unitAnalysis.numeric.count > 1) {
     returnString += `${unitAnalysis.numeric.min} - ${unitAnalysis.numeric.max}`;
-  } else {
+  } else if ((unitAnalysis.categorical.buckets || []).length > 0) {
     returnString += `${unitAnalysis.categorical.buckets[0].value}`;
   }
 
